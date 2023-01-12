@@ -1,0 +1,106 @@
+version: "3"
+services:
+  deluge:
+    container_name: deluge
+    image: linuxserver/deluge:latest
+    restart: always
+    # network_mode: service:vpn # run on the vpn network
+    network_mode: host
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - ${MEDIA_PATH}/downloads:/downloads # downloads folder
+      - ${CONFIG_PATH}/config/deluge:/config # config files
+    restart: unless-stopped
+
+  jackett:
+    container_name: jackett
+    image: linuxserver/jackett:latest
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${MEDIA_PATH}/downloads/torrent-blackhole:/downloads # place where to put .torrent files for manual download
+      - ${CONFIG_PATH}/config/jackett:/config # config files
+
+  nzbget:
+    container_name: nzbget
+    image: linuxserver/nzbget:latest
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - ${MEDIA_PATH}/downloads:/downloads # download folder
+      - ${CONFIG_PATH}/config/nzbget:/config # config files
+
+  sonarr:
+    container_name: sonarr
+    image: linuxserver/sonarr:latest
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${CONFIG_PATH}/config/sonarr:/config # config files
+      - ${MEDIA_PATH}/complete/tv:/tv # tv shows folder
+      - ${MEDIA_PATH}/downloads:/downloads # download folder
+
+  radarr:
+    container_name: radarr
+    image: linuxserver/radarr:latest
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${CONFIG_PATH}/config/radarr:/config # config files
+      - ${MEDIA_PATH}/complete/movies:/movies # movies folder
+      - ${MEDIA_PATH}/downloads:/downloads # download folder  
+
+  bazarr:
+    container_name: bazarr
+    image: linuxserver/bazarr
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+      - UMASK_SET=022 #optional
+    volumes:
+      - ${CONFIG_PATH}/config/bazarr:/config # config files
+      - ${MEDIA_PATH}/complete/movies:/movies # movies folder
+      - ${MEDIA_PATH}/complete/tv:/tv # tv shows folder
+
+  jellyfin:
+    image: linuxserver/jellyfin
+    devices:
+      - /dev/vchiq:/dev/vchiq ##HWA Chip
+    container_name: jellyfin
+    network_mode: host
+    environment:
+      - PUID=${PUID} 
+      - PGID=${PGID}
+      - TZ={TZ}
+      - UMASK_SET=022
+    volumes:
+      - ${CONFIG_PATH}/config/data/jellyfin:/config
+      - ${MEDIA_PATH}/complete:/media
+      - /dev/shm:/config/data/transcoding-temp/transcodes
+      - /opt/vc/lib:/opt/vc/lib   ## OpenMax Libraries
+    restart: always

@@ -1,0 +1,908 @@
+2023-01-10 23:15:45.3525 Info Starting Jackett v0.20.2608 
+2023-01-10 23:15:47.4884 Info Environment version: 6.0.11 (/app/Jackett/) 
+2023-01-10 23:15:47.5135 Info OS version: Unix 5.15.84.8 (64bit OS) (64bit process) 
+2023-01-10 23:15:47.5135 Info Jackett variant: CoreLinuxArm64 
+2023-01-10 23:15:47.5177 Info File /etc/issue: Ubuntu 20.04.4 LTS \n \l 
+2023-01-10 23:15:47.5177 Info Running in Docker: Yes (image build: v0.20.2608-ls88) 
+2023-01-10 23:15:47.5213 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2023-01-10 23:15:47.5213 Info App config/log directory: /config/Jackett 
+2023-01-10 23:15:47.5213 Info Using proxy: Disabled 
+2023-01-10 23:15:47.5256 Info Using FlareSolverr: No 
+2023-01-10 23:15:47.5312 Info Using HTTP Client: HttpWebClient2 
+2023-01-10 23:15:47.5477 Info Loading Native indexers ... 
+2023-01-10 23:15:47.9830 Info Loaded 75 Native indexers: alpharatio, anidex, anidub, animebytes, animetorrents, aro, avistaz, bakabt, beyond-hd-api, bithdtv, bjshare, brasiltracker, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, divxtotal, dontorrent, epublibre, erai-raws, exoticaz, filelist, funfile, gazellegames, gazellegamesapi, greatposterwall, hdbitsapi, hdspace, hdtorrents, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, myanonamouse, ncore, nebulance, nebulanceapi, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentheaven, torrentnetwork, torrentscsv, torrentsyndikat, tvstore, xspeeds, zonaq, animetosho, morethantv-api 
+2023-01-10 23:15:47.9941 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2023-01-10 23:15:53.9746 Info Loaded 487 Cardigann indexers: btetree, extremetorrents, bitru, spiritofrevolution, anthelion-api, torrentqq, esharenet, hebits, xtremebytes, kufirc, learnflakes, rus-media, riperam, acrossthetasman, rainbowtracker, theshow, uniondht, turktorrent, pwtorrents, 1ptbar, bulltorrent, learnbits, huntorrent, sexypics, cpasbien, hdc, bitturk, aidoruonline, snowpt, parnuxi, gktorrent, lst, ptsbao, woot, fouducinema, animeclipse, skipthetrailers, happyfappy, kinozal, hdu, megapeer, eztv, mousebits, soulvoice, lat-team-api, audiobookbay, falkonvisionteam, hdcztorrent, dodder, girotorrent, limetorrentsclone, pterclub, themixingbowl, ydypt, sukebeinyaasi, extremebits, empornium2fa, torrenting, thesceneplace, btschool, uniongang, amigosshare, seedoff, hdmonkey, vsthouse, cloudtorrents, rintor, tvchaosuk, majomparade, solidtorrents, portugas-api, btnext, gtorrentpro, aither-api, hd-unit3d-api, Bittorrentfiles, yts, megamixtracker, ebooks-shares, estone, dreamtracker, yggcookie, torrentmasters, extremlymtorrents, torrent911, wihd, unlimitz, mteamtp2fa, traht, moviesite, sdbits, sportscult, beyond-hd, romanianmetaltorrents, greekteam, theshinning-api, torrentleech-pl, trupornolabs, broadcity, siambit, keepfriends, aftershock, lastfiles, comicat, teamctgame, ehentai, ourbits, uhdbits, moviesdvdr, puntotorrent, pignetwork, limetorrents, cinemageddon, arenabg, btmet, 3evils, sosulki, sktorrent, ccfbits, acervos, milkie, hawke-uno, xxxtor, hdroute, aniRena, twilight, pornforall, jme-reunit3d-api, linuxtracker, ceskeforum, showrss, mvgroupforum, karagarga, gaytorrentru, bluebirdhd, pctorrent, femdomcult, 0magnet, exkinoray, bitsearch, rustorka, krazyzone, unionfansub, torrentby, hdgalaktik, newstudio, datascene-api, rptorrents, torrentlt, opencd, teracod, bitbazis, speedmasterhd, animelayer, frozenlayer, xiteme, gimmepeers, mojblink, generationfree-api, btsow, jptv, anime-free, xbytesv2, hdatmos, shareisland-api, mikan, bitspyder, bitded, blutopia-api, pussytorrents, 1337x, torrentseeds-api, mma-torrents, abtorrents, punkshorror, pornoslab, sktorrent-org, selezen, tvroad, file-tracker, magico, torrentgalaxy, u2, bootytape, finelite, lepornoinfo, houseofdevil, mnv, lemonhd, haitang, gigatorrents, onejav, discfan, cpasbienclone, firebit, jav-torrent, animeworld-api, peeratiko, rapidzona, rgfootball, yourbittorrent, noname-club, libranet, mypornclub, scenerush, mircrew, hdzone, dmhy, nyaasi, cinematik, hhanclub, itorrent, proporno, mazepa, pixelcove2fa, sugoimusic, ilcorsaronero, byrutor, tapochek, marinetracker, mteamtp, bibliotik, torrentslocal, world-of-tomorrow, speedtorrentreloaded, ibit, pixelados, cinemamovies, metaltracker, totallykids, locadora, sharewood, losslessclub, bitnova, resurrectthenet, brsociety-api, 52pt, xtorrenty, carpathians, empornium, sporthd, rintornet, isohunt2, mvgroupmain, totheglory, 3dtorrents, potuk, booktracker, scenepalace, hddolby, digitalcore, hdtorrentsit, pornbay, vsttorrents, anilibria, pornotor, hdspain, tjupt, torlock, swarmazon-api, zomb, crnaberza, totheglorycookie, cathoderaytube, torrenthr, tekno3d, tellytorrent-api, whiteangel, theplace, torrentbd, torrent-turk, skipthecommercials-api, noname-clubl, tokyotosho, legittorrents, diablotorrent, torrentz2nz, leech24, linkomanija, btdigg, xthor-api, tasmanit, torrentdownloads, torrentcore, hdturk, demonoid, redbits-api, zamundanet, the-crazy-ones, superbits, bangumi-moe, xxxadulttorrent, arabafenice, oldtoonsworld, swarmazon, badasstorrents, funkytorrents, hdonly, newretro, dark-shadow, korsar, ptmsg, proaudiotorrents, audionews, hdai, hdbits, xxxtorrents, theoldschool-api, freshmeat, byrbt, torrentland, tmghub, hd4fans, carpt, immortuos, piratbit, putao, fanoin, piratbitl, ihdbits, thevault, kickasstorrents-ws, hellashut, bitofvalor, acgsou, knaben, torrent9, rutracker-ru, bithumen, bwtorrents, redstartorrent, fantastiko, filelisting, coastalcrew, zelkaorg, beitai, thenewfun, dariustracker, movietorrentz, concertos, pornleech, zetorrents, hdhome, RockBox, animetracker, docspedia, exttorrents, chdbits, abnormal, hdtime, nntt, 2fast4you, extratorrent-st, torrentsectorcrew, mactorrentsdownload, bithorlo, racing4everyone-api, rudub, magicheaven, torrent-explosiv, pier720, muziekfabriek, lesaloon, hdolimpo-api, hdarea, pthome, fenyarnyek-tracker, kinorun, torrentdownload, torrentproject2, hdchina, torrentccf, ptfiles, theoccult, xwtclassics, anisource, pornotorrent, bestcore, internetarchive, pixelcove, glodls, mixtapetorrent, genesismovement, teamos, kickasstorrents-to, shanaproject, carphunter, torrentwhiz, p2pbg, teamhd, ilcorsaroblu, arabp2p, greekdiamond, jpopsuki, cartoonchaos, 4thd, borgzelle, torrentz2eu, r3vwtf, thegeeks, crazyspirits, indietorrents, haidan, miobt, chilebt, classix, insanetracker, torrentv, bt4g, fuzer, seedfile, acidlounge, 0daykiev, audiences, purovicio, polishtracker-api, springsunday, myspleen, trancetraffic, mesevilag, oshenpt, torrentsir, ftuapps, theempire, newstudiol, finvip, torrentview, deildu, hdfans, trezzor, spidertk, gfxpeers, torrentleech, fantasticheaven, datatalli, torrentfunk, torrentkitty, xwtorrents, hdforever, catorrent, thefallingangels, crt2fa, dxp, nethd, asiancinema, ztracker, crazyhd, desitorrents-api, rutor, reelflix-api, wdt, yggtorrent, concen, thepiratebay, torrent9clone, gay-torrentsorg, 3changtrai, hdsky, torrent-pirat, tlfbits, theleachzone, danishbytes-api, torrentoyunindir, divteam, pixelados-html, crackingpatching, racingforme, eniahd, pttime, nipponsei, madsrevolution, backups, gamestorrents, boxingtorrents, polishsource, satclubbing, dimeadozen, gay-torrents, peersfm, tribalmixes, acgrip, movietorrent, aussierules, idope, bigfangroup, turkseed, bitsexy 
+2023-01-10 23:15:53.9746 Info Loaded 562 indexers in total 
+2023-01-10 23:15:53.9796 Info Adding aggregate indexer ('all' indexer) ... 
+2023-01-10 23:15:54.0074 Info Adding filter indexer ('type:public' indexer) ... 
+2023-01-10 23:15:54.0074 Info Adding filter indexer ('type:private' indexer) ... 
+2023-01-10 23:15:54.0097 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2023-01-10 23:15:54.5072 Warn No XML encryptor configured. Key {137888ec-ceb6-4ad9-a9ff-7932910e2d6c} may be persisted to storage in unencrypted form. 
+2023-01-10 23:15:54.6392 Info Jackett startup finished in 11.113 s 
+2023-01-11 00:15:54.0530 Info Checking for updates... Jackett variant: CoreLinuxArm64 
+2023-01-11 00:15:55.3982 Info Jackett is already updated. Current version: v0.20.2608 
+2023-01-11 00:48:19.3466 Info Jackett stopped 
+2023-01-11 00:48:56.0591 Info Starting Jackett v0.20.2608 
+2023-01-11 00:48:58.9153 Info Environment version: 6.0.11 (/app/Jackett/) 
+2023-01-11 00:48:58.9186 Info OS version: Unix 5.15.84.8 (64bit OS) (64bit process) 
+2023-01-11 00:48:58.9220 Info Jackett variant: CoreLinuxArm64 
+2023-01-11 00:48:58.9220 Info File /etc/issue: Ubuntu 20.04.4 LTS \n \l 
+2023-01-11 00:48:58.9220 Info Running in Docker: Yes (image build: v0.20.2608-ls88) 
+2023-01-11 00:48:58.9271 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2023-01-11 00:48:58.9271 Info App config/log directory: /config/Jackett 
+2023-01-11 00:48:58.9310 Info Using proxy: Disabled 
+2023-01-11 00:48:58.9310 Info Using FlareSolverr: No 
+2023-01-11 00:48:58.9386 Info Using HTTP Client: HttpWebClient2 
+2023-01-11 00:48:58.9575 Info Loading Native indexers ... 
+2023-01-11 00:48:59.5191 Info Loaded 75 Native indexers: alpharatio, anidex, anidub, animebytes, animetorrents, aro, avistaz, bakabt, beyond-hd-api, bithdtv, bjshare, brasiltracker, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, divxtotal, dontorrent, epublibre, erai-raws, exoticaz, filelist, funfile, gazellegames, gazellegamesapi, greatposterwall, hdbitsapi, hdspace, hdtorrents, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, myanonamouse, ncore, nebulance, nebulanceapi, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentheaven, torrentnetwork, torrentscsv, torrentsyndikat, tvstore, xspeeds, zonaq, animetosho, morethantv-api 
+2023-01-11 00:48:59.5323 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2023-01-11 00:49:05.9132 Info Loaded 487 Cardigann indexers: btetree, extremetorrents, bitru, spiritofrevolution, anthelion-api, torrentqq, esharenet, hebits, xtremebytes, kufirc, learnflakes, rus-media, riperam, acrossthetasman, rainbowtracker, theshow, uniondht, turktorrent, pwtorrents, 1ptbar, bulltorrent, learnbits, huntorrent, sexypics, cpasbien, hdc, bitturk, aidoruonline, snowpt, parnuxi, gktorrent, lst, ptsbao, woot, fouducinema, animeclipse, skipthetrailers, happyfappy, kinozal, hdu, megapeer, eztv, mousebits, soulvoice, lat-team-api, audiobookbay, falkonvisionteam, hdcztorrent, dodder, girotorrent, limetorrentsclone, pterclub, themixingbowl, ydypt, sukebeinyaasi, extremebits, empornium2fa, torrenting, thesceneplace, btschool, uniongang, amigosshare, seedoff, hdmonkey, vsthouse, cloudtorrents, rintor, tvchaosuk, majomparade, solidtorrents, portugas-api, btnext, gtorrentpro, aither-api, hd-unit3d-api, Bittorrentfiles, yts, megamixtracker, ebooks-shares, estone, dreamtracker, yggcookie, torrentmasters, extremlymtorrents, torrent911, wihd, unlimitz, mteamtp2fa, traht, moviesite, sdbits, sportscult, beyond-hd, romanianmetaltorrents, greekteam, theshinning-api, torrentleech-pl, trupornolabs, broadcity, siambit, keepfriends, aftershock, lastfiles, comicat, teamctgame, ehentai, ourbits, uhdbits, moviesdvdr, puntotorrent, pignetwork, limetorrents, cinemageddon, arenabg, btmet, 3evils, sosulki, sktorrent, ccfbits, acervos, milkie, hawke-uno, xxxtor, hdroute, aniRena, twilight, pornforall, jme-reunit3d-api, linuxtracker, ceskeforum, showrss, mvgroupforum, karagarga, gaytorrentru, bluebirdhd, pctorrent, femdomcult, 0magnet, exkinoray, bitsearch, rustorka, krazyzone, unionfansub, torrentby, hdgalaktik, newstudio, datascene-api, rptorrents, torrentlt, opencd, teracod, bitbazis, speedmasterhd, animelayer, frozenlayer, xiteme, gimmepeers, mojblink, generationfree-api, btsow, jptv, anime-free, xbytesv2, hdatmos, shareisland-api, mikan, bitspyder, bitded, blutopia-api, pussytorrents, 1337x, torrentseeds-api, mma-torrents, abtorrents, punkshorror, pornoslab, sktorrent-org, selezen, tvroad, file-tracker, magico, torrentgalaxy, u2, bootytape, finelite, lepornoinfo, houseofdevil, mnv, lemonhd, haitang, gigatorrents, onejav, discfan, cpasbienclone, firebit, jav-torrent, animeworld-api, peeratiko, rapidzona, rgfootball, yourbittorrent, noname-club, libranet, mypornclub, scenerush, mircrew, hdzone, dmhy, nyaasi, cinematik, hhanclub, itorrent, proporno, mazepa, pixelcove2fa, sugoimusic, ilcorsaronero, byrutor, tapochek, marinetracker, mteamtp, bibliotik, torrentslocal, world-of-tomorrow, speedtorrentreloaded, ibit, pixelados, cinemamovies, metaltracker, totallykids, locadora, sharewood, losslessclub, bitnova, resurrectthenet, brsociety-api, 52pt, xtorrenty, carpathians, empornium, sporthd, rintornet, isohunt2, mvgroupmain, totheglory, 3dtorrents, potuk, booktracker, scenepalace, hddolby, digitalcore, hdtorrentsit, pornbay, vsttorrents, anilibria, pornotor, hdspain, tjupt, torlock, swarmazon-api, zomb, crnaberza, totheglorycookie, cathoderaytube, torrenthr, tekno3d, tellytorrent-api, whiteangel, theplace, torrentbd, torrent-turk, skipthecommercials-api, noname-clubl, tokyotosho, legittorrents, diablotorrent, torrentz2nz, leech24, linkomanija, btdigg, xthor-api, tasmanit, torrentdownloads, torrentcore, hdturk, demonoid, redbits-api, zamundanet, the-crazy-ones, superbits, bangumi-moe, xxxadulttorrent, arabafenice, oldtoonsworld, swarmazon, badasstorrents, funkytorrents, hdonly, newretro, dark-shadow, korsar, ptmsg, proaudiotorrents, audionews, hdai, hdbits, xxxtorrents, theoldschool-api, freshmeat, byrbt, torrentland, tmghub, hd4fans, carpt, immortuos, piratbit, putao, fanoin, piratbitl, ihdbits, thevault, kickasstorrents-ws, hellashut, bitofvalor, acgsou, knaben, torrent9, rutracker-ru, bithumen, bwtorrents, redstartorrent, fantastiko, filelisting, coastalcrew, zelkaorg, beitai, thenewfun, dariustracker, movietorrentz, concertos, pornleech, zetorrents, hdhome, RockBox, animetracker, docspedia, exttorrents, chdbits, abnormal, hdtime, nntt, 2fast4you, extratorrent-st, torrentsectorcrew, mactorrentsdownload, bithorlo, racing4everyone-api, rudub, magicheaven, torrent-explosiv, pier720, muziekfabriek, lesaloon, hdolimpo-api, hdarea, pthome, fenyarnyek-tracker, kinorun, torrentdownload, torrentproject2, hdchina, torrentccf, ptfiles, theoccult, xwtclassics, anisource, pornotorrent, bestcore, internetarchive, pixelcove, glodls, mixtapetorrent, genesismovement, teamos, kickasstorrents-to, shanaproject, carphunter, torrentwhiz, p2pbg, teamhd, ilcorsaroblu, arabp2p, greekdiamond, jpopsuki, cartoonchaos, 4thd, borgzelle, torrentz2eu, r3vwtf, thegeeks, crazyspirits, indietorrents, haidan, miobt, chilebt, classix, insanetracker, torrentv, bt4g, fuzer, seedfile, acidlounge, 0daykiev, audiences, purovicio, polishtracker-api, springsunday, myspleen, trancetraffic, mesevilag, oshenpt, torrentsir, ftuapps, theempire, newstudiol, finvip, torrentview, deildu, hdfans, trezzor, spidertk, gfxpeers, torrentleech, fantasticheaven, datatalli, torrentfunk, torrentkitty, xwtorrents, hdforever, catorrent, thefallingangels, crt2fa, dxp, nethd, asiancinema, ztracker, crazyhd, desitorrents-api, rutor, reelflix-api, wdt, yggtorrent, concen, thepiratebay, torrent9clone, gay-torrentsorg, 3changtrai, hdsky, torrent-pirat, tlfbits, theleachzone, danishbytes-api, torrentoyunindir, divteam, pixelados-html, crackingpatching, racingforme, eniahd, pttime, nipponsei, madsrevolution, backups, gamestorrents, boxingtorrents, polishsource, satclubbing, dimeadozen, gay-torrents, peersfm, tribalmixes, acgrip, movietorrent, aussierules, idope, bigfangroup, turkseed, bitsexy 
+2023-01-11 00:49:05.9142 Info Loaded 562 indexers in total 
+2023-01-11 00:49:05.9177 Info Adding aggregate indexer ('all' indexer) ... 
+2023-01-11 00:49:05.9471 Info Adding filter indexer ('type:public' indexer) ... 
+2023-01-11 00:49:05.9471 Info Adding filter indexer ('type:private' indexer) ... 
+2023-01-11 00:49:05.9471 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2023-01-11 00:49:06.5326 Info Jackett startup finished in 13.266 s 
+2023-01-11 01:33:39.2406 Info Test search in RARBG => Found 100 releases 
+2023-01-11 01:33:39.2981 Error Jackett.Common.IndexerException: Exception (1337x):  Received an unexpected EOF or 0 bytes from the transport stream. Jackett.Common.IndexerException: Exception (1337x):  Received an unexpected EOF or 0 bytes from the transport stream.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 186
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 522
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1414
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Common.Services.IndexerManagerService.TestIndexer(String name) in /home/vsts/work/1/s/src/Jackett.Common/Services/IndexerManagerService.cs:line 310
+   at Jackett.Server.Controllers.IndexerApiController.Test() in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 132
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+2023-01-11 01:33:40.9644 Info Test search in The Pirate Bay => Found 50 releases 
+2023-01-11 01:33:51.5882 Error Jackett.Common.IndexerException: Exception (1337x):  Received an unexpected EOF or 0 bytes from the transport stream. Jackett.Common.IndexerException: Exception (1337x):  Received an unexpected EOF or 0 bytes from the transport stream.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 186
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 522
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1414
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Common.Services.IndexerManagerService.TestIndexer(String name) in /home/vsts/work/1/s/src/Jackett.Common/Services/IndexerManagerService.cs:line 310
+   at Jackett.Server.Controllers.IndexerApiController.Test() in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 132
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+2023-01-11 01:35:08.9954 Error Jackett.Common.IndexerException: Exception (1337x):  Received an unexpected EOF or 0 bytes from the transport stream. Jackett.Common.IndexerException: Exception (1337x):  Received an unexpected EOF or 0 bytes from the transport stream.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 186
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 522
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1414
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Common.Services.IndexerManagerService.TestIndexer(String name) in /home/vsts/work/1/s/src/Jackett.Common/Services/IndexerManagerService.cs:line 310
+   at Jackett.Server.Controllers.IndexerApiController.Test() in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 132
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+2023-01-11 01:35:11.4524 Error Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream. Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 186
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 522
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1414
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Common.Services.IndexerManagerService.TestIndexer(String name) in /home/vsts/work/1/s/src/Jackett.Common/Services/IndexerManagerService.cs:line 310
+   at Jackett.Server.Controllers.IndexerApiController.Test() in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 132
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+2023-01-11 01:35:14.8048 Error Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream. Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 186
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 522
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1414
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Common.Services.IndexerManagerService.TestIndexer(String name) in /home/vsts/work/1/s/src/Jackett.Common/Services/IndexerManagerService.cs:line 310
+   at Jackett.Server.Controllers.IndexerApiController.Test() in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 132
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 61
+2023-01-11 01:35:16.4092 Info Test search in The Pirate Bay => Found 50 releases 
+2023-01-11 01:35:17.6080 Info Test search in RARBG => Found 100 releases 
+2023-01-11 01:49:05.9887 Info Checking for updates... Jackett variant: CoreLinuxArm64 
+2023-01-11 01:49:07.2161 Info Jackett is already updated. Current version: v0.20.2608 
+2023-01-11 02:00:50.7534 Error Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream. Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 186
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 522
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1414
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Server.Controllers.ResultsController.Results(ApiSearch requestt) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 228
+2023-01-11 02:00:52.3312 Info Manual search in RARBG, YTS, 1337x, The Pirate Bay for enola holmes => Found 70 releases 
+2023-01-11 21:53:20.4195 Info Torznab search in RARBG => Found 100 releases 
+2023-01-11 21:53:27.7723 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-11 21:53:46.0253 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 21:53:47.0686 Info Torznab search in The Pirate Bay => Found 13 releases 
+2023-01-11 21:53:49.0555 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 21:53:49.0576 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) 
+2023-01-11 21:53:52.7037 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-11 21:53:55.1527 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-11 22:01:33.3066 Error Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream. Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 219
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1414
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 324
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 324
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 695
+   at Jackett.Server.Controllers.ResultsController.Results(ApiSearch requestt) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 228
+2023-01-11 22:01:33.3445 Info Manual search in RARBG, YTS, 1337x, The Pirate Bay for rick and morty => Found 200 releases 
+2023-01-11 22:06:22.9001 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:06:22.9013 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) 
+2023-01-11 22:06:22.9013 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-11 22:07:06.4796 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:07.9301 Info Torznab search in The Pirate Bay for Rick et Morty S01E11 => Found 0 releases 
+2023-01-11 22:07:08.4573 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:09.3243 Info Torznab search in The Pirate Bay for Rick y Morty S01E11 => Found 4 releases 
+2023-01-11 22:07:10.4575 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:11.0676 Info Torznab search in The Pirate Bay for Rick es Morty S01E11 => Found 0 releases 
+2023-01-11 22:07:12.4619 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:12.7962 Info Torznab search in RARBG => Found 0 releases 
+2023-01-11 22:07:13.0897 Info Torznab search in The Pirate Bay for Rick and Morty S01E11 => Found 4 releases 
+2023-01-11 22:07:14.4553 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:14.4553 Info Torznab search in The Pirate Bay for Rick et Morty S01E11 => Found 0 releases (from cache) 
+2023-01-11 22:07:14.8384 Info Torznab search in RARBG => Found 0 releases (from cache) 
+2023-01-11 22:07:16.4589 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:16.4589 Info Torznab search in The Pirate Bay for Rick y Morty S01E11 => Found 4 releases (from cache) 
+2023-01-11 22:07:18.4635 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:18.4662 Info Torznab search in The Pirate Bay for Rick es Morty S01E11 => Found 0 releases (from cache) 
+2023-01-11 22:07:20.4535 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:20.4535 Info Torznab search in The Pirate Bay for Rick and Morty S01E11 => Found 4 releases (from cache) 
+2023-01-11 22:07:22.4627 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:23.0344 Info Torznab search in The Pirate Bay for Rick et Morty S06E10 => Found 0 releases 
+2023-01-11 22:07:24.4624 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:25.1792 Info Torznab search in The Pirate Bay for Rick y Morty S06E10 => Found 12 releases 
+2023-01-11 22:07:26.4562 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:27.0211 Info Torznab search in The Pirate Bay for Rick es Morty S06E10 => Found 0 releases 
+2023-01-11 22:07:27.0688 Info Torznab search in RARBG => Found 5 releases 
+2023-01-11 22:07:28.4621 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:07:29.2267 Info Torznab search in The Pirate Bay for Rick and Morty S06E10 => Found 12 releases 
+2023-01-11 22:07:30.0718 Info Torznab search in RARBG for Rick et Morty S01E11 => Found 0 releases 
+2023-01-11 22:07:33.0663 Info Torznab search in RARBG for Rick et Morty S01E11 => Found 0 releases 
+2023-01-11 22:07:42.0927 Info Torznab search in RARBG for Rick y Morty S01E11 => Found 0 releases 
+2023-01-11 22:07:45.0875 Info Torznab search in RARBG for Rick y Morty S01E11 => Found 0 releases 
+2023-01-11 22:07:54.1647 Info Torznab search in RARBG for Rick es Morty S01E11 => Found 0 releases 
+2023-01-11 22:07:57.1996 Info Torznab search in RARBG for Rick es Morty S01E11 => Found 0 releases 
+2023-01-11 22:08:06.1415 Info Torznab search in RARBG for Rick and Morty S01E11 => Found 0 releases 
+2023-01-11 22:08:10.1244 Info Torznab search in RARBG for Rick and Morty S01E11 => Found 0 releases 
+2023-01-11 22:21:53.6318 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-11 22:21:53.6318 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:21:53.6375 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) 
+2023-01-11 22:37:23.9733 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:37:25.0914 Info Torznab search in The Pirate Bay => Found 9 releases 
+2023-01-11 22:37:29.8080 Info Torznab search in RARBG => Found 100 releases 
+2023-01-11 22:52:54.2568 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-11 22:52:54.2803 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 22:52:54.2834 Info Torznab search in The Pirate Bay => Found 9 releases (from cache) 
+2023-01-11 23:08:24.6516 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 23:08:24.6516 Info Torznab search in The Pirate Bay => Found 9 releases (from cache) 
+2023-01-11 23:08:24.6516 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-11 23:23:55.1463 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 23:23:59.5981 Info Torznab search in The Pirate Bay => Found 15 releases 
+2023-01-11 23:24:01.1192 Info Torznab search in RARBG => Found 100 releases 
+2023-01-11 23:39:25.5415 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 23:39:25.5415 Info Torznab search in The Pirate Bay => Found 15 releases (from cache) 
+2023-01-11 23:39:25.5615 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-11 23:54:55.8404 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-11 23:54:55.8404 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-11 23:54:55.8414 Info Torznab search in The Pirate Bay => Found 15 releases (from cache) 
+2023-01-12 00:10:26.3440 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 00:10:27.4166 Info Torznab search in The Pirate Bay => Found 14 releases 
+2023-01-12 00:10:32.1565 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 00:25:56.5704 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 00:25:56.5704 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 00:25:56.5780 Info Torznab search in The Pirate Bay => Found 14 releases (from cache) 
+2023-01-12 00:41:26.8488 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 00:41:26.8505 Info Torznab search in The Pirate Bay => Found 14 releases (from cache) 
+2023-01-12 00:41:26.8505 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 00:56:57.1138 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 00:56:58.2224 Info Torznab search in The Pirate Bay => Found 16 releases 
+2023-01-12 00:57:03.0699 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 01:12:27.2967 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 01:12:27.2967 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:12:27.2986 Info Torznab search in The Pirate Bay => Found 16 releases (from cache) 
+2023-01-12 01:16:56.3974 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:16:57.2892 Info Torznab search in The Pirate Bay for Rick et Morty S06E10 => Found 0 releases 
+2023-01-12 01:16:58.3791 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:16:59.0809 Info Torznab search in The Pirate Bay for Rick y Morty S06E10 => Found 12 releases 
+2023-01-12 01:17:00.3835 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:17:00.9623 Info Torznab search in The Pirate Bay for Rick es Morty S06E10 => Found 0 releases 
+2023-01-12 01:17:02.3777 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:17:02.4125 Info Torznab search in RARBG => Found 5 releases 
+2023-01-12 01:17:03.0786 Info Torznab search in The Pirate Bay for Rick and Morty S06E10 => Found 12 releases 
+2023-01-12 01:18:02.7339 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:18:02.7339 Info Torznab search in The Pirate Bay for Rick et Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:18:02.7575 Info Torznab search in RARBG => Found 5 releases (from cache) 
+2023-01-12 01:18:04.7287 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:18:04.7303 Info Torznab search in The Pirate Bay for Rick y Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:18:06.7343 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:18:06.7343 Info Torznab search in The Pirate Bay for Rick es Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:18:08.7286 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:18:08.7311 Info Torznab search in The Pirate Bay for Rick and Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:18:50.6797 Info Torznab search in RARBG => Found 5 releases (from cache) 
+2023-01-12 01:18:50.6957 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:18:50.6957 Info Torznab search in The Pirate Bay for Rick et Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:18:52.6830 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:18:52.6830 Info Torznab search in The Pirate Bay for Rick y Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:18:54.6819 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:18:54.6819 Info Torznab search in The Pirate Bay for Rick es Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:18:56.6790 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:18:56.6790 Info Torznab search in The Pirate Bay for Rick and Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:19:41.3620 Info Torznab search in RARBG => Found 5 releases (from cache) 
+2023-01-12 01:19:41.3739 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:19:41.3739 Info Torznab search in The Pirate Bay for Rick et Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:19:43.3599 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:19:43.3619 Info Torznab search in The Pirate Bay for Rick y Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:19:45.3589 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:19:45.3589 Info Torznab search in The Pirate Bay for Rick es Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:19:47.3635 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:19:47.3656 Info Torznab search in The Pirate Bay for Rick and Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:21:36.1444 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:21:36.5315 Info Torznab search in RARBG => Found 5 releases 
+2023-01-12 01:21:36.8528 Info Torznab search in The Pirate Bay for Rick et Morty S06E09 => Found 0 releases 
+2023-01-12 01:21:38.1324 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:21:38.7788 Info Torznab search in The Pirate Bay for Rick y Morty S06E09 => Found 11 releases 
+2023-01-12 01:21:40.1331 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:21:40.7050 Info Torznab search in The Pirate Bay for Rick es Morty S06E09 => Found 0 releases 
+2023-01-12 01:21:42.1362 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:21:42.7879 Info Torznab search in The Pirate Bay for Rick and Morty S06E09 => Found 11 releases 
+2023-01-12 01:22:51.0874 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:22:51.3519 Info Torznab search in RARBG => Found 5 releases 
+2023-01-12 01:22:51.7110 Info Torznab search in The Pirate Bay for Mythic Quest Ravens Banquet S03E10 => Found 2 releases 
+2023-01-12 01:22:53.0732 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:22:53.7391 Info Torznab search in The Pirate Bay for Mythic Quest S03E10 => Found 9 releases 
+2023-01-12 01:24:36.8787 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:24:36.8787 Info Torznab search in RARBG => Found 5 releases (from cache) 
+2023-01-12 01:24:36.8787 Info Torznab search in The Pirate Bay for Rick et Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:24:38.8751 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:24:38.8751 Info Torznab search in The Pirate Bay for Rick y Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:24:40.8779 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:24:40.8779 Info Torznab search in The Pirate Bay for Rick es Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:24:42.8741 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:24:42.8741 Info Torznab search in The Pirate Bay for Rick and Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:27:06.1106 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:27:06.1106 Info Torznab search in RARBG => Found 5 releases (from cache) 
+2023-01-12 01:27:06.1106 Info Torznab search in The Pirate Bay for Rick et Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:27:08.1034 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:27:08.1091 Info Torznab search in The Pirate Bay for Rick y Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:27:10.1089 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:27:10.1113 Info Torznab search in The Pirate Bay for Rick es Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:27:12.1029 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:27:12.1029 Info Torznab search in The Pirate Bay for Rick and Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:27:58.0544 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:27:58.0544 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 01:27:58.0544 Info Torznab search in The Pirate Bay => Found 16 releases (from cache) 
+2023-01-12 01:28:39.1073 Info Torznab search in RARBG => Found 5 releases (from cache) 
+2023-01-12 01:28:39.1637 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:28:39.1637 Info Torznab search in The Pirate Bay for Rick et Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:28:41.1356 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:28:41.1377 Info Torznab search in The Pirate Bay for Rick y Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:28:43.1141 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:28:43.1175 Info Torznab search in The Pirate Bay for Rick es Morty S06E10 => Found 0 releases (from cache) 
+2023-01-12 01:28:45.1086 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:28:45.1099 Info Torznab search in The Pirate Bay for Rick and Morty S06E10 => Found 12 releases (from cache) 
+2023-01-12 01:43:03.6670 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:43:04.8122 Info Torznab search in The Pirate Bay => Found 3 releases 
+2023-01-12 01:43:09.5231 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 01:49:07.2186 Info Checking for updates... Jackett variant: CoreLinuxArm64 
+2023-01-12 01:49:08.8236 Info New release found. Current version: v0.20.2608 New version: v0.20.2614 
+2023-01-12 01:49:08.8236 Info Downloading release v0.20.2614 It could take a while... 
+2023-01-12 01:49:39.8300 Info Starting updater: /tmp/JackettUpdate-v0.20.2614-638090849715236342/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "127" --NoRestart 
+2023-01-12 01:49:39.8689 Info Updater started process id: 438 
+2023-01-12 01:49:50.7989 Info Starting Jackett v0.20.2614 
+2023-01-12 01:49:53.1372 Info Environment version: 6.0.11 (/app/Jackett/) 
+2023-01-12 01:49:53.1397 Info OS version: Unix 5.15.84.8 (64bit OS) (64bit process) 
+2023-01-12 01:49:53.1426 Info Jackett variant: CoreLinuxArm64 
+2023-01-12 01:49:53.1426 Info File /etc/issue: Ubuntu 20.04.4 LTS \n \l 
+2023-01-12 01:49:53.1426 Info Running in Docker: Yes (image build: v0.20.2608-ls88) 
+2023-01-12 01:49:53.1464 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2023-01-12 01:49:53.1464 Info App config/log directory: /config/Jackett 
+2023-01-12 01:49:53.1497 Info Using proxy: Disabled 
+2023-01-12 01:49:53.1497 Info Using FlareSolverr: No 
+2023-01-12 01:49:53.1559 Info Using HTTP Client: HttpWebClient2 
+2023-01-12 01:49:53.1726 Info Loading Native indexers ... 
+2023-01-12 01:49:53.7919 Info Loaded 74 Native indexers: alpharatio, anidex, anidub, animebytes, animetorrents, aro, avistaz, bakabt, beyond-hd-api, bithdtv, bjshare, brasiltracker, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, divxtotal, dontorrent, epublibre, erai-raws, exoticaz, filelist, funfile, gazellegames, gazellegamesapi, greatposterwall, hdbitsapi, hdspace, hdtorrents, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, myanonamouse, ncore, nebulanceapi, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentheaven, torrentnetwork, torrentscsv, torrentsyndikat, tvstore, xspeeds, zonaq, animetosho, morethantv-api 
+2023-01-12 01:49:53.8044 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2023-01-12 01:50:00.1527 Info Loaded 485 Cardigann indexers: btetree, extremetorrents, bitru, spiritofrevolution, anthelion-api, torrentqq, esharenet, hebits, xtremebytes, kufirc, learnflakes, rus-media, riperam, acrossthetasman, rainbowtracker, theshow, uniondht, turktorrent, pwtorrents, 1ptbar, bulltorrent, learnbits, huntorrent, sexypics, cpasbien, hdc, bitturk, aidoruonline, snowpt, parnuxi, gktorrent, lst, ptsbao, woot, fouducinema, animeclipse, skipthetrailers, happyfappy, kinozal, hdu, megapeer, eztv, mousebits, soulvoice, lat-team-api, audiobookbay, falkonvisionteam, hdcztorrent, dodder, girotorrent, limetorrentsclone, pterclub, themixingbowl, ydypt, sukebeinyaasi, extremebits, empornium2fa, torrenting, thesceneplace, btschool, uniongang, amigosshare, seedoff, hdmonkey, vsthouse, cloudtorrents, rintor, tvchaosuk, majomparade, solidtorrents, portugas-api, btnext, gtorrentpro, aither-api, hd-unit3d-api, Bittorrentfiles, yts, megamixtracker, ebooks-shares, estone, dreamtracker, yggcookie, torrentmasters, extremlymtorrents, torrent911, wihd, unlimitz, mteamtp2fa, traht, moviesite, sdbits, sportscult, beyond-hd, romanianmetaltorrents, greekteam, theshinning-api, torrentleech-pl, trupornolabs, broadcity, siambit, keepfriends, aftershock, lastfiles, comicat, teamctgame, ehentai, ourbits, uhdbits, moviesdvdr, puntotorrent, pignetwork, limetorrents, cinemageddon, arenabg, btmet, 3evils, sosulki, sktorrent, ccfbits, acervos, milkie, hawke-uno, xxxtor, hdroute, aniRena, twilight, pornforall, jme-reunit3d-api, linuxtracker, ceskeforum, showrss, mvgroupforum, karagarga, gaytorrentru, bluebirdhd, pctorrent, femdomcult, 0magnet, exkinoray, bitsearch, rustorka, krazyzone, unionfansub, torrentby, hdgalaktik, newstudio, datascene-api, rptorrents, torrentlt, opencd, teracod, bitbazis, speedmasterhd, animelayer, frozenlayer, xiteme, gimmepeers, mojblink, generationfree-api, btsow, jptv, anime-free, xbytesv2, hdatmos, shareisland-api, mikan, bitspyder, bitded, blutopia-api, pussytorrents, 1337x, torrentseeds-api, mma-torrents, abtorrents, punkshorror, pornoslab, sktorrent-org, selezen, tvroad, file-tracker, magico, torrentgalaxy, u2, bootytape, finelite, lepornoinfo, houseofdevil, mnv, lemonhd, haitang, gigatorrents, onejav, discfan, cpasbienclone, firebit, jav-torrent, animeworld-api, peeratiko, rapidzona, rgfootball, yourbittorrent, noname-club, libranet, mypornclub, scenerush, mircrew, hdzone, dmhy, nyaasi, cinematik, hhanclub, itorrent, proporno, mazepa, pixelcove2fa, sugoimusic, ilcorsaronero, byrutor, tapochek, marinetracker, mteamtp, bibliotik, torrentslocal, world-of-tomorrow, speedtorrentreloaded, ibit, pixelados, cinemamovies, metaltracker, totallykids, locadora, sharewood, losslessclub, bitnova, resurrectthenet, brsociety-api, 52pt, xtorrenty, carpathians, empornium, sporthd, rintornet, isohunt2, mvgroupmain, totheglory, 3dtorrents, potuk, booktracker, hddolby, digitalcore, hdtorrentsit, pornbay, vsttorrents, anilibria, pornotor, hdspain, tjupt, torlock, swarmazon-api, zomb, crnaberza, totheglorycookie, cathoderaytube, torrenthr, tekno3d, tellytorrent-api, whiteangel, theplace, torrentbd, torrent-turk, skipthecommercials-api, noname-clubl, tokyotosho, legittorrents, diablotorrent, torrentz2nz, leech24, linkomanija, btdigg, xthor-api, tasmanit, torrentdownloads, torrentcore, hdturk, demonoid, redbits-api, zamundanet, the-crazy-ones, superbits, bangumi-moe, xxxadulttorrent, arabafenice, oldtoonsworld, badasstorrents, funkytorrents, hdonly, newretro, dark-shadow, korsar, ptmsg, proaudiotorrents, audionews, hdai, hdbits, xxxtorrents, theoldschool-api, freshmeat, byrbt, torrentland, tmghub, hd4fans, carpt, immortuos, piratbit, putao, fanoin, piratbitl, ihdbits, thevault, kickasstorrents-ws, hellashut, bitofvalor, acgsou, knaben, torrent9, rutracker-ru, bithumen, bwtorrents, redstartorrent, fantastiko, filelisting, coastalcrew, zelkaorg, beitai, thenewfun, dariustracker, movietorrentz, concertos, pornleech, zetorrents, hdhome, RockBox, animetracker, docspedia, exttorrents, chdbits, abnormal, hdtime, nntt, 2fast4you, extratorrent-st, torrentsectorcrew, mactorrentsdownload, bithorlo, racing4everyone-api, rudub, magicheaven, torrent-explosiv, pier720, muziekfabriek, lesaloon, hdolimpo-api, hdarea, pthome, fenyarnyek-tracker, kinorun, torrentdownload, torrentproject2, hdchina, torrentccf, ptfiles, theoccult, xwtclassics, anisource, pornotorrent, bestcore, internetarchive, pixelcove, glodls, mixtapetorrent, genesismovement, teamos, kickasstorrents-to, shanaproject, carphunter, torrentwhiz, p2pbg, teamhd, ilcorsaroblu, arabp2p, greekdiamond, jpopsuki, cartoonchaos, 4thd, borgzelle, torrentz2eu, r3vwtf, thegeeks, crazyspirits, indietorrents, haidan, miobt, chilebt, classix, insanetracker, torrentv, bt4g, fuzer, seedfile, acidlounge, 0daykiev, audiences, purovicio, polishtracker-api, springsunday, myspleen, trancetraffic, mesevilag, oshenpt, torrentsir, ftuapps, theempire, newstudiol, finvip, torrentview, deildu, hdfans, trezzor, spidertk, gfxpeers, torrentleech, fantasticheaven, datatalli, torrentfunk, torrentkitty, xwtorrents, hdforever, catorrent, thefallingangels, crt2fa, dxp, nethd, asiancinema, ztracker, crazyhd, desitorrents-api, rutor, reelflix-api, wdt, yggtorrent, concen, thepiratebay, torrent9clone, gay-torrentsorg, 3changtrai, hdsky, torrent-pirat, tlfbits, theleachzone, danishbytes-api, torrentoyunindir, divteam, pixelados-html, crackingpatching, racingforme, eniahd, pttime, nipponsei, madsrevolution, backups, gamestorrents, boxingtorrents, polishsource, satclubbing, dimeadozen, gay-torrents, peersfm, tribalmixes, acgrip, movietorrent, aussierules, idope, bigfangroup, turkseed, bitsexy 
+2023-01-12 01:50:00.1536 Info Loaded 559 indexers in total 
+2023-01-12 01:50:00.1536 Info Adding aggregate indexer ('all' indexer) ... 
+2023-01-12 01:50:00.1811 Info Adding filter indexer ('type:public' indexer) ... 
+2023-01-12 01:50:00.1826 Info Adding filter indexer ('type:private' indexer) ... 
+2023-01-12 01:50:00.1826 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2023-01-12 01:50:00.1990 Info Deleting JackettUpdate temp files from /tmp/JackettUpdate-v0.20.2614-638090849715236342 
+2023-01-12 01:50:00.9797 Info Jackett startup finished in 12.163 s 
+2023-01-12 01:58:38.3909 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 01:58:40.4841 Info Torznab search in The Pirate Bay => Found 3 releases 
+2023-01-12 01:58:44.8633 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 02:04:33.5870 Info Jackett stopped 
+2023-01-12 02:05:13.5282 Info Starting Jackett v0.20.2608 
+2023-01-12 02:05:21.9111 Info Environment version: 6.0.11 (/app/Jackett/) 
+2023-01-12 02:05:21.9160 Info OS version: Unix 5.15.84.8 (64bit OS) (64bit process) 
+2023-01-12 02:05:21.9304 Info Jackett variant: CoreLinuxArm64 
+2023-01-12 02:05:21.9304 Info File /etc/issue: Ubuntu 20.04.4 LTS \n \l 
+2023-01-12 02:05:21.9368 Info Running in Docker: Yes (image build: v0.20.2608-ls88) 
+2023-01-12 02:05:21.9439 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2023-01-12 02:05:21.9495 Info App config/log directory: /config/Jackett 
+2023-01-12 02:05:21.9537 Info Using proxy: Disabled 
+2023-01-12 02:05:21.9537 Info Using FlareSolverr: No 
+2023-01-12 02:05:21.9636 Info Using HTTP Client: HttpWebClient2 
+2023-01-12 02:05:22.0090 Info Loading Native indexers ... 
+2023-01-12 02:05:23.8517 Info Loaded 75 Native indexers: alpharatio, anidex, anidub, animebytes, animetorrents, aro, avistaz, bakabt, beyond-hd-api, bithdtv, bjshare, brasiltracker, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, divxtotal, dontorrent, epublibre, erai-raws, exoticaz, filelist, funfile, gazellegames, gazellegamesapi, greatposterwall, hdbitsapi, hdspace, hdtorrents, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, myanonamouse, ncore, nebulance, nebulanceapi, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentheaven, torrentnetwork, torrentscsv, torrentsyndikat, tvstore, xspeeds, zonaq, animetosho, morethantv-api 
+2023-01-12 02:05:23.9021 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2023-01-12 02:05:40.3189 Info Loaded 487 Cardigann indexers: btetree, extremetorrents, bitru, spiritofrevolution, anthelion-api, torrentqq, esharenet, hebits, xtremebytes, kufirc, learnflakes, rus-media, riperam, acrossthetasman, rainbowtracker, theshow, uniondht, turktorrent, pwtorrents, 1ptbar, bulltorrent, learnbits, huntorrent, sexypics, cpasbien, hdc, bitturk, aidoruonline, snowpt, parnuxi, gktorrent, lst, ptsbao, woot, fouducinema, animeclipse, skipthetrailers, happyfappy, kinozal, hdu, megapeer, eztv, mousebits, soulvoice, lat-team-api, audiobookbay, falkonvisionteam, hdcztorrent, dodder, girotorrent, limetorrentsclone, pterclub, themixingbowl, ydypt, sukebeinyaasi, extremebits, empornium2fa, torrenting, thesceneplace, btschool, uniongang, amigosshare, seedoff, hdmonkey, vsthouse, cloudtorrents, rintor, tvchaosuk, majomparade, solidtorrents, portugas-api, btnext, gtorrentpro, aither-api, hd-unit3d-api, Bittorrentfiles, yts, megamixtracker, ebooks-shares, estone, dreamtracker, yggcookie, torrentmasters, extremlymtorrents, torrent911, wihd, unlimitz, mteamtp2fa, traht, moviesite, sdbits, sportscult, beyond-hd, romanianmetaltorrents, greekteam, theshinning-api, torrentleech-pl, trupornolabs, broadcity, siambit, keepfriends, aftershock, lastfiles, comicat, teamctgame, ehentai, ourbits, uhdbits, moviesdvdr, puntotorrent, pignetwork, limetorrents, cinemageddon, arenabg, btmet, 3evils, sosulki, sktorrent, ccfbits, acervos, milkie, hawke-uno, xxxtor, hdroute, aniRena, twilight, pornforall, jme-reunit3d-api, linuxtracker, ceskeforum, showrss, mvgroupforum, karagarga, gaytorrentru, bluebirdhd, pctorrent, femdomcult, 0magnet, exkinoray, bitsearch, rustorka, krazyzone, unionfansub, torrentby, hdgalaktik, newstudio, datascene-api, rptorrents, torrentlt, opencd, teracod, bitbazis, speedmasterhd, animelayer, frozenlayer, xiteme, gimmepeers, mojblink, generationfree-api, btsow, jptv, anime-free, xbytesv2, hdatmos, shareisland-api, mikan, bitspyder, bitded, blutopia-api, pussytorrents, 1337x, torrentseeds-api, mma-torrents, abtorrents, punkshorror, pornoslab, sktorrent-org, selezen, tvroad, file-tracker, magico, torrentgalaxy, u2, bootytape, finelite, lepornoinfo, houseofdevil, mnv, lemonhd, haitang, gigatorrents, onejav, discfan, cpasbienclone, firebit, jav-torrent, animeworld-api, peeratiko, rapidzona, rgfootball, yourbittorrent, noname-club, libranet, mypornclub, scenerush, mircrew, hdzone, dmhy, nyaasi, cinematik, hhanclub, itorrent, proporno, mazepa, pixelcove2fa, sugoimusic, ilcorsaronero, byrutor, tapochek, marinetracker, mteamtp, bibliotik, torrentslocal, world-of-tomorrow, speedtorrentreloaded, ibit, pixelados, cinemamovies, metaltracker, totallykids, locadora, sharewood, losslessclub, bitnova, resurrectthenet, brsociety-api, 52pt, xtorrenty, carpathians, empornium, sporthd, rintornet, isohunt2, mvgroupmain, totheglory, 3dtorrents, potuk, booktracker, scenepalace, hddolby, digitalcore, hdtorrentsit, pornbay, vsttorrents, anilibria, pornotor, hdspain, tjupt, torlock, swarmazon-api, zomb, crnaberza, totheglorycookie, cathoderaytube, torrenthr, tekno3d, tellytorrent-api, whiteangel, theplace, torrentbd, torrent-turk, skipthecommercials-api, noname-clubl, tokyotosho, legittorrents, diablotorrent, torrentz2nz, leech24, linkomanija, btdigg, xthor-api, tasmanit, torrentdownloads, torrentcore, hdturk, demonoid, redbits-api, zamundanet, the-crazy-ones, superbits, bangumi-moe, xxxadulttorrent, arabafenice, oldtoonsworld, swarmazon, badasstorrents, funkytorrents, hdonly, newretro, dark-shadow, korsar, ptmsg, proaudiotorrents, audionews, hdai, hdbits, xxxtorrents, theoldschool-api, freshmeat, byrbt, torrentland, tmghub, hd4fans, carpt, immortuos, piratbit, putao, fanoin, piratbitl, ihdbits, thevault, kickasstorrents-ws, hellashut, bitofvalor, acgsou, knaben, torrent9, rutracker-ru, bithumen, bwtorrents, redstartorrent, fantastiko, filelisting, coastalcrew, zelkaorg, beitai, thenewfun, dariustracker, movietorrentz, concertos, pornleech, zetorrents, hdhome, RockBox, animetracker, docspedia, exttorrents, chdbits, abnormal, hdtime, nntt, 2fast4you, extratorrent-st, torrentsectorcrew, mactorrentsdownload, bithorlo, racing4everyone-api, rudub, magicheaven, torrent-explosiv, pier720, muziekfabriek, lesaloon, hdolimpo-api, hdarea, pthome, fenyarnyek-tracker, kinorun, torrentdownload, torrentproject2, hdchina, torrentccf, ptfiles, theoccult, xwtclassics, anisource, pornotorrent, bestcore, internetarchive, pixelcove, glodls, mixtapetorrent, genesismovement, teamos, kickasstorrents-to, shanaproject, carphunter, torrentwhiz, p2pbg, teamhd, ilcorsaroblu, arabp2p, greekdiamond, jpopsuki, cartoonchaos, 4thd, borgzelle, torrentz2eu, r3vwtf, thegeeks, crazyspirits, indietorrents, haidan, miobt, chilebt, classix, insanetracker, torrentv, bt4g, fuzer, seedfile, acidlounge, 0daykiev, audiences, purovicio, polishtracker-api, springsunday, myspleen, trancetraffic, mesevilag, oshenpt, torrentsir, ftuapps, theempire, newstudiol, finvip, torrentview, deildu, hdfans, trezzor, spidertk, gfxpeers, torrentleech, fantasticheaven, datatalli, torrentfunk, torrentkitty, xwtorrents, hdforever, catorrent, thefallingangels, crt2fa, dxp, nethd, asiancinema, ztracker, crazyhd, desitorrents-api, rutor, reelflix-api, wdt, yggtorrent, concen, thepiratebay, torrent9clone, gay-torrentsorg, 3changtrai, hdsky, torrent-pirat, tlfbits, theleachzone, danishbytes-api, torrentoyunindir, divteam, pixelados-html, crackingpatching, racingforme, eniahd, pttime, nipponsei, madsrevolution, backups, gamestorrents, boxingtorrents, polishsource, satclubbing, dimeadozen, gay-torrents, peersfm, tribalmixes, acgrip, movietorrent, aussierules, idope, bigfangroup, turkseed, bitsexy 
+2023-01-12 02:05:40.3189 Info Loaded 562 indexers in total 
+2023-01-12 02:05:40.3271 Info Adding aggregate indexer ('all' indexer) ... 
+2023-01-12 02:05:40.3714 Info Adding filter indexer ('type:public' indexer) ... 
+2023-01-12 02:05:40.3737 Info Adding filter indexer ('type:private' indexer) ... 
+2023-01-12 02:05:40.3737 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2023-01-12 02:05:41.3012 Info Jackett startup finished in 31.083 s 
+2023-01-12 02:13:53.7829 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 02:13:55.8412 Info Torznab search in The Pirate Bay => Found 8 releases 
+2023-01-12 02:14:00.2380 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 02:18:43.5372 Info Jackett stopped 
+2023-01-12 02:19:25.0055 Info Starting Jackett v0.20.2608 
+2023-01-12 02:19:30.5944 Info Environment version: 6.0.11 (/app/Jackett/) 
+2023-01-12 02:19:30.6100 Info OS version: Unix 5.15.84.8 (64bit OS) (64bit process) 
+2023-01-12 02:19:30.6145 Info Jackett variant: CoreLinuxArm64 
+2023-01-12 02:19:30.6145 Info File /etc/issue: Ubuntu 20.04.4 LTS \n \l 
+2023-01-12 02:19:30.6303 Info Running in Docker: Yes (image build: v0.20.2608-ls88) 
+2023-01-12 02:19:30.6355 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2023-01-12 02:19:30.6355 Info App config/log directory: /config/Jackett 
+2023-01-12 02:19:30.6406 Info Using proxy: Disabled 
+2023-01-12 02:19:30.6416 Info Using FlareSolverr: No 
+2023-01-12 02:19:30.6648 Info Using HTTP Client: HttpWebClient2 
+2023-01-12 02:19:30.7043 Info Loading Native indexers ... 
+2023-01-12 02:19:31.9279 Info Loaded 75 Native indexers: alpharatio, anidex, anidub, animebytes, animetorrents, aro, avistaz, bakabt, beyond-hd-api, bithdtv, bjshare, brasiltracker, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, divxtotal, dontorrent, epublibre, erai-raws, exoticaz, filelist, funfile, gazellegames, gazellegamesapi, greatposterwall, hdbitsapi, hdspace, hdtorrents, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, myanonamouse, ncore, nebulance, nebulanceapi, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentheaven, torrentnetwork, torrentscsv, torrentsyndikat, tvstore, xspeeds, zonaq, animetosho, morethantv-api 
+2023-01-12 02:19:31.9667 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2023-01-12 02:19:44.7878 Info Loaded 487 Cardigann indexers: btetree, extremetorrents, bitru, spiritofrevolution, anthelion-api, torrentqq, esharenet, hebits, xtremebytes, kufirc, learnflakes, rus-media, riperam, acrossthetasman, rainbowtracker, theshow, uniondht, turktorrent, pwtorrents, 1ptbar, bulltorrent, learnbits, huntorrent, sexypics, cpasbien, hdc, bitturk, aidoruonline, snowpt, parnuxi, gktorrent, lst, ptsbao, woot, fouducinema, animeclipse, skipthetrailers, happyfappy, kinozal, hdu, megapeer, eztv, mousebits, soulvoice, lat-team-api, audiobookbay, falkonvisionteam, hdcztorrent, dodder, girotorrent, limetorrentsclone, pterclub, themixingbowl, ydypt, sukebeinyaasi, extremebits, empornium2fa, torrenting, thesceneplace, btschool, uniongang, amigosshare, seedoff, hdmonkey, vsthouse, cloudtorrents, rintor, tvchaosuk, majomparade, solidtorrents, portugas-api, btnext, gtorrentpro, aither-api, hd-unit3d-api, Bittorrentfiles, yts, megamixtracker, ebooks-shares, estone, dreamtracker, yggcookie, torrentmasters, extremlymtorrents, torrent911, wihd, unlimitz, mteamtp2fa, traht, moviesite, sdbits, sportscult, beyond-hd, romanianmetaltorrents, greekteam, theshinning-api, torrentleech-pl, trupornolabs, broadcity, siambit, keepfriends, aftershock, lastfiles, comicat, teamctgame, ehentai, ourbits, uhdbits, moviesdvdr, puntotorrent, pignetwork, limetorrents, cinemageddon, arenabg, btmet, 3evils, sosulki, sktorrent, ccfbits, acervos, milkie, hawke-uno, xxxtor, hdroute, aniRena, twilight, pornforall, jme-reunit3d-api, linuxtracker, ceskeforum, showrss, mvgroupforum, karagarga, gaytorrentru, bluebirdhd, pctorrent, femdomcult, 0magnet, exkinoray, bitsearch, rustorka, krazyzone, unionfansub, torrentby, hdgalaktik, newstudio, datascene-api, rptorrents, torrentlt, opencd, teracod, bitbazis, speedmasterhd, animelayer, frozenlayer, xiteme, gimmepeers, mojblink, generationfree-api, btsow, jptv, anime-free, xbytesv2, hdatmos, shareisland-api, mikan, bitspyder, bitded, blutopia-api, pussytorrents, 1337x, torrentseeds-api, mma-torrents, abtorrents, punkshorror, pornoslab, sktorrent-org, selezen, tvroad, file-tracker, magico, torrentgalaxy, u2, bootytape, finelite, lepornoinfo, houseofdevil, mnv, lemonhd, haitang, gigatorrents, onejav, discfan, cpasbienclone, firebit, jav-torrent, animeworld-api, peeratiko, rapidzona, rgfootball, yourbittorrent, noname-club, libranet, mypornclub, scenerush, mircrew, hdzone, dmhy, nyaasi, cinematik, hhanclub, itorrent, proporno, mazepa, pixelcove2fa, sugoimusic, ilcorsaronero, byrutor, tapochek, marinetracker, mteamtp, bibliotik, torrentslocal, world-of-tomorrow, speedtorrentreloaded, ibit, pixelados, cinemamovies, metaltracker, totallykids, locadora, sharewood, losslessclub, bitnova, resurrectthenet, brsociety-api, 52pt, xtorrenty, carpathians, empornium, sporthd, rintornet, isohunt2, mvgroupmain, totheglory, 3dtorrents, potuk, booktracker, scenepalace, hddolby, digitalcore, hdtorrentsit, pornbay, vsttorrents, anilibria, pornotor, hdspain, tjupt, torlock, swarmazon-api, zomb, crnaberza, totheglorycookie, cathoderaytube, torrenthr, tekno3d, tellytorrent-api, whiteangel, theplace, torrentbd, torrent-turk, skipthecommercials-api, noname-clubl, tokyotosho, legittorrents, diablotorrent, torrentz2nz, leech24, linkomanija, btdigg, xthor-api, tasmanit, torrentdownloads, torrentcore, hdturk, demonoid, redbits-api, zamundanet, the-crazy-ones, superbits, bangumi-moe, xxxadulttorrent, arabafenice, oldtoonsworld, swarmazon, badasstorrents, funkytorrents, hdonly, newretro, dark-shadow, korsar, ptmsg, proaudiotorrents, audionews, hdai, hdbits, xxxtorrents, theoldschool-api, freshmeat, byrbt, torrentland, tmghub, hd4fans, carpt, immortuos, piratbit, putao, fanoin, piratbitl, ihdbits, thevault, kickasstorrents-ws, hellashut, bitofvalor, acgsou, knaben, torrent9, rutracker-ru, bithumen, bwtorrents, redstartorrent, fantastiko, filelisting, coastalcrew, zelkaorg, beitai, thenewfun, dariustracker, movietorrentz, concertos, pornleech, zetorrents, hdhome, RockBox, animetracker, docspedia, exttorrents, chdbits, abnormal, hdtime, nntt, 2fast4you, extratorrent-st, torrentsectorcrew, mactorrentsdownload, bithorlo, racing4everyone-api, rudub, magicheaven, torrent-explosiv, pier720, muziekfabriek, lesaloon, hdolimpo-api, hdarea, pthome, fenyarnyek-tracker, kinorun, torrentdownload, torrentproject2, hdchina, torrentccf, ptfiles, theoccult, xwtclassics, anisource, pornotorrent, bestcore, internetarchive, pixelcove, glodls, mixtapetorrent, genesismovement, teamos, kickasstorrents-to, shanaproject, carphunter, torrentwhiz, p2pbg, teamhd, ilcorsaroblu, arabp2p, greekdiamond, jpopsuki, cartoonchaos, 4thd, borgzelle, torrentz2eu, r3vwtf, thegeeks, crazyspirits, indietorrents, haidan, miobt, chilebt, classix, insanetracker, torrentv, bt4g, fuzer, seedfile, acidlounge, 0daykiev, audiences, purovicio, polishtracker-api, springsunday, myspleen, trancetraffic, mesevilag, oshenpt, torrentsir, ftuapps, theempire, newstudiol, finvip, torrentview, deildu, hdfans, trezzor, spidertk, gfxpeers, torrentleech, fantasticheaven, datatalli, torrentfunk, torrentkitty, xwtorrents, hdforever, catorrent, thefallingangels, crt2fa, dxp, nethd, asiancinema, ztracker, crazyhd, desitorrents-api, rutor, reelflix-api, wdt, yggtorrent, concen, thepiratebay, torrent9clone, gay-torrentsorg, 3changtrai, hdsky, torrent-pirat, tlfbits, theleachzone, danishbytes-api, torrentoyunindir, divteam, pixelados-html, crackingpatching, racingforme, eniahd, pttime, nipponsei, madsrevolution, backups, gamestorrents, boxingtorrents, polishsource, satclubbing, dimeadozen, gay-torrents, peersfm, tribalmixes, acgrip, movietorrent, aussierules, idope, bigfangroup, turkseed, bitsexy 
+2023-01-12 02:19:44.7878 Info Loaded 562 indexers in total 
+2023-01-12 02:19:44.7958 Info Adding aggregate indexer ('all' indexer) ... 
+2023-01-12 02:19:44.8387 Info Adding filter indexer ('type:public' indexer) ... 
+2023-01-12 02:19:44.8387 Info Adding filter indexer ('type:private' indexer) ... 
+2023-01-12 02:19:44.8413 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2023-01-12 02:19:45.6214 Info Jackett startup finished in 25.443 s 
+2023-01-12 02:29:07.1747 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 02:29:10.7090 Info Torznab search in The Pirate Bay => Found 10 releases 
+2023-01-12 02:29:15.2029 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 02:44:35.7669 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 02:44:35.7758 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 02:44:35.7758 Info Torznab search in The Pirate Bay => Found 10 releases (from cache) 
+2023-01-12 03:00:05.9923 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 03:00:05.9923 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 03:00:06.0004 Info Torznab search in The Pirate Bay => Found 10 releases (from cache) 
+2023-01-12 03:15:36.3988 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 03:15:37.6247 Info Torznab search in The Pirate Bay => Found 18 releases 
+2023-01-12 03:15:42.2860 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 03:19:44.9058 Info Checking for updates... Jackett variant: CoreLinuxArm64 
+2023-01-12 03:19:45.2876 Info New release found. Current version: v0.20.2608 New version: v0.20.2614 
+2023-01-12 03:19:45.2876 Info Downloading release v0.20.2614 It could take a while... 
+2023-01-12 03:20:05.6699 Info Starting updater: /tmp/JackettUpdate-v0.20.2614-638090903973861954/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "125" --NoRestart 
+2023-01-12 03:20:05.6890 Info Updater started process id: 199 
+2023-01-12 03:20:14.6075 Info Starting Jackett v0.20.2614 
+2023-01-12 03:20:16.6557 Info Environment version: 6.0.11 (/app/Jackett/) 
+2023-01-12 03:20:16.6586 Info OS version: Unix 5.15.84.8 (64bit OS) (64bit process) 
+2023-01-12 03:20:16.6617 Info Jackett variant: CoreLinuxArm64 
+2023-01-12 03:20:16.6617 Info File /etc/issue: Ubuntu 20.04.4 LTS \n \l 
+2023-01-12 03:20:16.6617 Info Running in Docker: Yes (image build: v0.20.2608-ls88) 
+2023-01-12 03:20:16.6659 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2023-01-12 03:20:16.6659 Info App config/log directory: /config/Jackett 
+2023-01-12 03:20:16.6659 Info Using proxy: Disabled 
+2023-01-12 03:20:16.6699 Info Using FlareSolverr: No 
+2023-01-12 03:20:16.6754 Info Using HTTP Client: HttpWebClient2 
+2023-01-12 03:20:16.6920 Info Loading Native indexers ... 
+2023-01-12 03:20:17.2177 Info Loaded 74 Native indexers: alpharatio, anidex, anidub, animebytes, animetorrents, aro, avistaz, bakabt, beyond-hd-api, bithdtv, bjshare, brasiltracker, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, divxtotal, dontorrent, epublibre, erai-raws, exoticaz, filelist, funfile, gazellegames, gazellegamesapi, greatposterwall, hdbitsapi, hdspace, hdtorrents, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, myanonamouse, ncore, nebulanceapi, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentheaven, torrentnetwork, torrentscsv, torrentsyndikat, tvstore, xspeeds, zonaq, animetosho, morethantv-api 
+2023-01-12 03:20:17.2289 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2023-01-12 03:20:23.2634 Info Loaded 485 Cardigann indexers: btetree, extremetorrents, bitru, spiritofrevolution, anthelion-api, torrentqq, esharenet, hebits, xtremebytes, kufirc, learnflakes, rus-media, riperam, acrossthetasman, rainbowtracker, theshow, uniondht, turktorrent, pwtorrents, 1ptbar, bulltorrent, learnbits, huntorrent, sexypics, cpasbien, hdc, bitturk, aidoruonline, snowpt, parnuxi, gktorrent, lst, ptsbao, woot, fouducinema, animeclipse, skipthetrailers, happyfappy, kinozal, hdu, megapeer, eztv, mousebits, soulvoice, lat-team-api, audiobookbay, falkonvisionteam, hdcztorrent, dodder, girotorrent, limetorrentsclone, pterclub, themixingbowl, ydypt, sukebeinyaasi, extremebits, empornium2fa, torrenting, thesceneplace, btschool, uniongang, amigosshare, seedoff, hdmonkey, vsthouse, cloudtorrents, rintor, tvchaosuk, majomparade, solidtorrents, portugas-api, btnext, gtorrentpro, aither-api, hd-unit3d-api, Bittorrentfiles, yts, megamixtracker, ebooks-shares, estone, dreamtracker, yggcookie, torrentmasters, extremlymtorrents, torrent911, wihd, unlimitz, mteamtp2fa, traht, moviesite, sdbits, sportscult, beyond-hd, romanianmetaltorrents, greekteam, theshinning-api, torrentleech-pl, trupornolabs, broadcity, siambit, keepfriends, aftershock, lastfiles, comicat, teamctgame, ehentai, ourbits, uhdbits, moviesdvdr, puntotorrent, pignetwork, limetorrents, cinemageddon, arenabg, btmet, 3evils, sosulki, sktorrent, ccfbits, acervos, milkie, hawke-uno, xxxtor, hdroute, aniRena, twilight, pornforall, jme-reunit3d-api, linuxtracker, ceskeforum, showrss, mvgroupforum, karagarga, gaytorrentru, bluebirdhd, pctorrent, femdomcult, 0magnet, exkinoray, bitsearch, rustorka, krazyzone, unionfansub, torrentby, hdgalaktik, newstudio, datascene-api, rptorrents, torrentlt, opencd, teracod, bitbazis, speedmasterhd, animelayer, frozenlayer, xiteme, gimmepeers, mojblink, generationfree-api, btsow, jptv, anime-free, xbytesv2, hdatmos, shareisland-api, mikan, bitspyder, bitded, blutopia-api, pussytorrents, 1337x, torrentseeds-api, mma-torrents, abtorrents, punkshorror, pornoslab, sktorrent-org, selezen, tvroad, file-tracker, magico, torrentgalaxy, u2, bootytape, finelite, lepornoinfo, houseofdevil, mnv, lemonhd, haitang, gigatorrents, onejav, discfan, cpasbienclone, firebit, jav-torrent, animeworld-api, peeratiko, rapidzona, rgfootball, yourbittorrent, noname-club, libranet, mypornclub, scenerush, mircrew, hdzone, dmhy, nyaasi, cinematik, hhanclub, itorrent, proporno, mazepa, pixelcove2fa, sugoimusic, ilcorsaronero, byrutor, tapochek, marinetracker, mteamtp, bibliotik, torrentslocal, world-of-tomorrow, speedtorrentreloaded, ibit, pixelados, cinemamovies, metaltracker, totallykids, locadora, sharewood, losslessclub, bitnova, resurrectthenet, brsociety-api, 52pt, xtorrenty, carpathians, empornium, sporthd, rintornet, isohunt2, mvgroupmain, totheglory, 3dtorrents, potuk, booktracker, hddolby, digitalcore, hdtorrentsit, pornbay, vsttorrents, anilibria, pornotor, hdspain, tjupt, torlock, swarmazon-api, zomb, crnaberza, totheglorycookie, cathoderaytube, torrenthr, tekno3d, tellytorrent-api, whiteangel, theplace, torrentbd, torrent-turk, skipthecommercials-api, noname-clubl, tokyotosho, legittorrents, diablotorrent, torrentz2nz, leech24, linkomanija, btdigg, xthor-api, tasmanit, torrentdownloads, torrentcore, hdturk, demonoid, redbits-api, zamundanet, the-crazy-ones, superbits, bangumi-moe, xxxadulttorrent, arabafenice, oldtoonsworld, badasstorrents, funkytorrents, hdonly, newretro, dark-shadow, korsar, ptmsg, proaudiotorrents, audionews, hdai, hdbits, xxxtorrents, theoldschool-api, freshmeat, byrbt, torrentland, tmghub, hd4fans, carpt, immortuos, piratbit, putao, fanoin, piratbitl, ihdbits, thevault, kickasstorrents-ws, hellashut, bitofvalor, acgsou, knaben, torrent9, rutracker-ru, bithumen, bwtorrents, redstartorrent, fantastiko, filelisting, coastalcrew, zelkaorg, beitai, thenewfun, dariustracker, movietorrentz, concertos, pornleech, zetorrents, hdhome, RockBox, animetracker, docspedia, exttorrents, chdbits, abnormal, hdtime, nntt, 2fast4you, extratorrent-st, torrentsectorcrew, mactorrentsdownload, bithorlo, racing4everyone-api, rudub, magicheaven, torrent-explosiv, pier720, muziekfabriek, lesaloon, hdolimpo-api, hdarea, pthome, fenyarnyek-tracker, kinorun, torrentdownload, torrentproject2, hdchina, torrentccf, ptfiles, theoccult, xwtclassics, anisource, pornotorrent, bestcore, internetarchive, pixelcove, glodls, mixtapetorrent, genesismovement, teamos, kickasstorrents-to, shanaproject, carphunter, torrentwhiz, p2pbg, teamhd, ilcorsaroblu, arabp2p, greekdiamond, jpopsuki, cartoonchaos, 4thd, borgzelle, torrentz2eu, r3vwtf, thegeeks, crazyspirits, indietorrents, haidan, miobt, chilebt, classix, insanetracker, torrentv, bt4g, fuzer, seedfile, acidlounge, 0daykiev, audiences, purovicio, polishtracker-api, springsunday, myspleen, trancetraffic, mesevilag, oshenpt, torrentsir, ftuapps, theempire, newstudiol, finvip, torrentview, deildu, hdfans, trezzor, spidertk, gfxpeers, torrentleech, fantasticheaven, datatalli, torrentfunk, torrentkitty, xwtorrents, hdforever, catorrent, thefallingangels, crt2fa, dxp, nethd, asiancinema, ztracker, crazyhd, desitorrents-api, rutor, reelflix-api, wdt, yggtorrent, concen, thepiratebay, torrent9clone, gay-torrentsorg, 3changtrai, hdsky, torrent-pirat, tlfbits, theleachzone, danishbytes-api, torrentoyunindir, divteam, pixelados-html, crackingpatching, racingforme, eniahd, pttime, nipponsei, madsrevolution, backups, gamestorrents, boxingtorrents, polishsource, satclubbing, dimeadozen, gay-torrents, peersfm, tribalmixes, acgrip, movietorrent, aussierules, idope, bigfangroup, turkseed, bitsexy 
+2023-01-12 03:20:23.2634 Info Loaded 559 indexers in total 
+2023-01-12 03:20:23.2685 Info Adding aggregate indexer ('all' indexer) ... 
+2023-01-12 03:20:23.2917 Info Adding filter indexer ('type:public' indexer) ... 
+2023-01-12 03:20:23.2917 Info Adding filter indexer ('type:private' indexer) ... 
+2023-01-12 03:20:23.2937 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2023-01-12 03:20:23.3104 Info Deleting JackettUpdate temp files from /tmp/JackettUpdate-v0.20.2614-638090903973861954 
+2023-01-12 03:20:24.0267 Info Jackett startup finished in 11.280 s 
+2023-01-12 03:31:07.4308 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 03:31:09.7331 Info Torznab search in The Pirate Bay => Found 20 releases 
+2023-01-12 03:31:14.4682 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 03:46:37.2184 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 03:46:37.2315 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 03:46:37.2315 Info Torznab search in The Pirate Bay => Found 20 releases (from cache) 
+2023-01-12 04:02:07.5353 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 04:02:07.5353 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 04:02:07.5353 Info Torznab search in The Pirate Bay => Found 20 releases (from cache) 
+2023-01-12 04:17:37.9123 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 04:17:38.9909 Info Torznab search in The Pirate Bay => Found 9 releases 
+2023-01-12 04:17:43.8992 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 04:20:23.5015 Info Checking for updates... Jackett variant: CoreLinuxArm64 
+2023-01-12 04:20:24.5015 Info Jackett is already updated. Current version: v0.20.2614 
+2023-01-12 04:33:08.2048 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 04:33:08.2048 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 04:33:08.2057 Info Torznab search in The Pirate Bay => Found 9 releases (from cache) 
+2023-01-12 04:48:38.4942 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 04:48:38.4942 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 04:48:38.4942 Info Torznab search in The Pirate Bay => Found 9 releases (from cache) 
+2023-01-12 05:04:08.9916 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 05:04:10.4875 Info Torznab search in The Pirate Bay => Found 3 releases 
+2023-01-12 05:04:15.0394 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 05:19:39.3201 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 05:19:39.3201 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 05:19:39.3213 Info Torznab search in The Pirate Bay => Found 3 releases (from cache) 
+2023-01-12 05:35:09.6790 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 05:35:09.6790 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 05:35:09.6790 Info Torznab search in The Pirate Bay => Found 3 releases (from cache) 
+2023-01-12 05:50:40.0749 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 05:50:41.1273 Info Torznab search in The Pirate Bay => Found 8 releases 
+2023-01-12 05:50:45.6998 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 06:06:10.6539 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 06:06:10.6539 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 06:06:10.6685 Info Torznab search in The Pirate Bay => Found 8 releases (from cache) 
+2023-01-12 06:21:40.9761 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 06:21:40.9761 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 06:21:40.9775 Info Torznab search in The Pirate Bay => Found 8 releases (from cache) 
+2023-01-12 06:37:11.3503 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 06:37:12.8501 Info Torznab search in The Pirate Bay => Found 20 releases 
+2023-01-12 06:37:17.1061 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 06:52:41.7075 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 06:52:41.7075 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 06:52:41.7097 Info Torznab search in The Pirate Bay => Found 20 releases (from cache) 
+2023-01-12 07:08:11.9684 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 07:08:11.9768 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 07:08:11.9778 Info Torznab search in The Pirate Bay => Found 20 releases (from cache) 
+2023-01-12 07:23:42.3328 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 07:23:43.9173 Info Torznab search in The Pirate Bay => Found 16 releases 
+2023-01-12 07:23:47.9956 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 07:39:12.6511 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 07:39:12.6511 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 07:39:12.6511 Info Torznab search in The Pirate Bay => Found 16 releases (from cache) 
+2023-01-12 07:54:42.9691 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 07:54:42.9699 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 07:54:42.9699 Info Torznab search in The Pirate Bay => Found 16 releases (from cache) 
+2023-01-12 08:10:13.2146 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 08:10:14.7323 Info Torznab search in The Pirate Bay => Found 5 releases 
+2023-01-12 08:10:18.8719 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 08:25:43.4227 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 08:25:43.4227 Info Torznab search in The Pirate Bay => Found 5 releases (from cache) 
+2023-01-12 08:25:43.4227 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 08:41:13.6101 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 08:41:13.6101 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 08:41:13.6101 Info Torznab search in The Pirate Bay => Found 5 releases (from cache) 
+2023-01-12 08:56:43.8582 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 08:56:45.3725 Info Torznab search in The Pirate Bay => Found 1 releases 
+2023-01-12 08:56:49.4684 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 09:12:14.1401 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 09:12:14.1401 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 09:12:14.1415 Info Torznab search in The Pirate Bay => Found 1 releases (from cache) 
+2023-01-12 09:27:44.4286 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 09:27:44.4296 Info Torznab search in The Pirate Bay => Found 1 releases (from cache) 
+2023-01-12 09:27:44.4296 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 09:43:14.8240 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 09:43:16.4692 Info Torznab search in The Pirate Bay => Found 15 releases 
+2023-01-12 09:43:20.4161 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 09:58:44.8735 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 09:58:44.8735 Info Torznab search in The Pirate Bay => Found 15 releases (from cache) 
+2023-01-12 09:58:44.8876 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 10:14:15.0276 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 10:14:15.0307 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 10:14:15.0307 Info Torznab search in The Pirate Bay => Found 15 releases (from cache) 
+2023-01-12 10:29:45.3631 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 10:29:46.8480 Info Torznab search in The Pirate Bay => Found 11 releases 
+2023-01-12 10:29:50.9509 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 10:45:15.6741 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 10:45:15.6741 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 10:45:15.6741 Info Torznab search in The Pirate Bay => Found 11 releases (from cache) 
+2023-01-12 11:00:46.1581 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 11:00:46.1581 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 11:00:46.1581 Info Torznab search in The Pirate Bay => Found 11 releases (from cache) 
+2023-01-12 11:16:16.6148 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 11:16:18.1048 Info Torznab search in The Pirate Bay => Found 14 releases 
+2023-01-12 11:16:22.2334 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 11:31:46.8995 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 11:31:46.9077 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 11:31:46.9077 Info Torznab search in The Pirate Bay => Found 14 releases (from cache) 
+2023-01-12 11:47:17.1656 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 11:47:17.1656 Info Torznab search in The Pirate Bay => Found 14 releases (from cache) 
+2023-01-12 11:47:17.1656 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 12:02:47.6425 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 12:02:49.2201 Info Torznab search in The Pirate Bay => Found 4 releases 
+2023-01-12 12:02:54.3521 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 12:18:18.1739 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 12:18:18.1739 Info Torznab search in The Pirate Bay => Found 4 releases (from cache) 
+2023-01-12 12:18:18.1778 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 12:33:48.5438 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 12:33:48.5438 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 12:33:48.5461 Info Torznab search in The Pirate Bay => Found 4 releases (from cache) 
+2023-01-12 12:49:19.0286 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 12:49:20.6862 Info Torznab search in The Pirate Bay => Found 4 releases 
+2023-01-12 12:49:26.1990 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 13:04:49.4117 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 13:04:49.4117 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 13:04:49.4136 Info Torznab search in The Pirate Bay => Found 4 releases (from cache) 
+2023-01-12 13:20:19.7827 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 13:20:19.7827 Info Torznab search in The Pirate Bay => Found 4 releases (from cache) 
+2023-01-12 13:20:19.8006 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 13:35:50.2639 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 13:35:51.9713 Info Torznab search in The Pirate Bay => Found 5 releases 
+2023-01-12 13:35:56.8636 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 13:51:20.6556 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 13:51:20.6556 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 13:51:20.6556 Info Torznab search in The Pirate Bay => Found 5 releases (from cache) 
+2023-01-12 14:06:50.9097 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 14:06:50.9097 Info Torznab search in The Pirate Bay => Found 5 releases (from cache) 
+2023-01-12 14:06:50.9097 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 14:22:21.3555 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 14:22:23.0467 Info Torznab search in The Pirate Bay => Found 24 releases 
+2023-01-12 14:22:27.9512 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 14:37:51.6630 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 14:37:51.6630 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 14:37:51.6630 Info Torznab search in The Pirate Bay => Found 24 releases (from cache) 
+2023-01-12 14:53:21.9508 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 14:53:21.9508 Info Torznab search in The Pirate Bay => Found 24 releases (from cache) 
+2023-01-12 14:53:21.9554 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 15:08:52.3528 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 15:08:54.0352 Info Torznab search in The Pirate Bay => Found 15 releases 
+2023-01-12 15:08:58.9998 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 15:24:22.8045 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 15:24:22.8197 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 15:24:22.8197 Info Torznab search in The Pirate Bay => Found 15 releases (from cache) 
+2023-01-12 15:39:53.1118 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 15:39:53.1118 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 15:39:53.1118 Info Torznab search in The Pirate Bay => Found 15 releases (from cache) 
+2023-01-12 15:55:23.4233 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 15:55:25.1049 Info Torznab search in The Pirate Bay => Found 12 releases 
+2023-01-12 15:55:30.0904 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 16:10:53.7964 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 16:10:53.7964 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 16:10:53.7974 Info Torznab search in The Pirate Bay => Found 12 releases (from cache) 
+2023-01-12 16:26:24.0313 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 16:26:24.0339 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 16:26:24.0339 Info Torznab search in The Pirate Bay => Found 12 releases (from cache) 
+2023-01-12 16:41:54.4787 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 16:41:55.5275 Info Torznab search in The Pirate Bay => Found 20 releases 
+2023-01-12 16:42:00.4066 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 16:57:24.8313 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 16:57:24.8360 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 16:57:24.8360 Info Torznab search in The Pirate Bay => Found 20 releases (from cache) 
+2023-01-12 17:12:55.1177 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 17:12:55.1274 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 17:12:55.1274 Info Torznab search in The Pirate Bay => Found 20 releases (from cache) 
+2023-01-12 17:28:25.7162 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 17:28:26.7818 Info Torznab search in The Pirate Bay => Found 15 releases 
+2023-01-12 17:28:32.2436 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 17:43:56.0425 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 17:43:56.0425 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 17:43:56.0425 Info Torznab search in The Pirate Bay => Found 15 releases (from cache) 
+2023-01-12 17:59:26.3545 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 17:59:26.3545 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 17:59:26.3579 Info Torznab search in The Pirate Bay => Found 15 releases (from cache) 
+2023-01-12 18:14:56.9505 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 18:14:58.0179 Info Torznab search in The Pirate Bay => Found 19 releases 
+2023-01-12 18:15:02.8597 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 18:30:27.3113 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 18:30:27.3113 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 18:30:27.3113 Info Torznab search in The Pirate Bay => Found 19 releases (from cache) 
+2023-01-12 18:45:57.6884 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 18:45:57.6884 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 18:45:57.6905 Info Torznab search in The Pirate Bay => Found 19 releases (from cache) 
+2023-01-12 19:01:28.0948 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 19:01:29.2418 Info Torznab search in The Pirate Bay => Found 13 releases 
+2023-01-12 19:01:33.9377 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 19:16:58.3943 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 19:16:58.3943 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 19:16:58.3943 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) 
+2023-01-12 19:32:28.7786 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 19:32:28.7786 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 19:32:28.7786 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) 
+2023-01-12 19:47:59.2618 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 19:48:00.4268 Info Torznab search in The Pirate Bay => Found 13 releases 
+2023-01-12 19:48:05.1420 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 20:03:29.6172 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 20:03:29.6266 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 20:03:29.6266 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) 
+2023-01-12 20:19:00.0302 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 20:19:00.0302 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 20:19:00.0334 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) 
+2023-01-12 20:34:30.4588 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 20:34:31.5508 Info Torznab search in The Pirate Bay => Found 19 releases 
+2023-01-12 20:34:36.4225 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 20:50:00.8182 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 20:50:00.8182 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 20:50:00.8182 Info Torznab search in The Pirate Bay => Found 19 releases (from cache) 
+2023-01-12 21:05:31.1410 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 21:05:31.1523 Info Torznab search in The Pirate Bay => Found 19 releases (from cache) 
+2023-01-12 21:05:31.1600 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 21:11:27.7756 Warn Some of the categories provided are unsupported in RARBG: 2010,2020 
+2023-01-12 21:11:33.7837 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 21:11:35.8109 Warn Some of the categories provided are unsupported in RARBG: 2010,2020 
+2023-01-12 21:11:35.8109 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 21:12:07.9361 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-01-12 21:12:09.4208 Info Torznab search in The Pirate Bay => Found 0 releases 
+2023-01-12 21:12:24.6366 Info Test search in The Pirate Bay => Found 50 releases 
+2023-01-12 21:12:30.9035 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-01-12 21:12:30.9035 Info Torznab search in The Pirate Bay => Found 0 releases (from cache) 
+2023-01-12 21:12:32.9057 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-01-12 21:12:32.9057 Info Torznab search in The Pirate Bay => Found 0 releases (from cache) 
+2023-01-12 21:12:44.7334 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-01-12 21:12:44.7334 Info Torznab search in The Pirate Bay => Found 0 releases (from cache) 
+2023-01-12 21:13:11.1341 Info Torznab search in The Pirate Bay => Found 18 releases 
+2023-01-12 21:13:12.5799 Info Torznab search in The Pirate Bay => Found 18 releases (from cache) 
+2023-01-12 21:13:32.5420 Warn Some of the categories provided are unsupported in YTS: 2010,2020,2030,2050 
+2023-01-12 21:13:32.6090 Error Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream. Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 219
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1414
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 324
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 324
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 695
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 440
+2023-01-12 21:13:39.2346 Error Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream. Jackett.Common.IndexerException: Exception (yts):  Received an unexpected EOF or 0 bytes from the transport stream.
+ ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 219
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1414
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 324
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 324
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 695
+   at Jackett.Common.Services.IndexerManagerService.TestIndexer(String name) in /home/vsts/work/1/s/src/Jackett.Common/Services/IndexerManagerService.cs:line 310
+   at Jackett.Server.Controllers.IndexerApiController.Test() in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 132
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 61
+2023-01-12 21:13:47.7421 Warn Some of the categories provided are unsupported in RARBG: 2010,2020 
+2023-01-12 21:13:47.7497 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 21:13:47.9267 Info Torznab search in The Pirate Bay => Found 18 releases (from cache) 
+2023-01-12 21:21:01.4966 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 21:21:02.6549 Info Torznab search in The Pirate Bay => Found 17 releases 
+2023-01-12 21:21:02.7153 Info Torznab search in RARBG => Found 100 releases 
+2023-01-12 21:26:26.6681 Warn Some of the categories provided are unsupported in RARBG: 2010,2020 
+2023-01-12 21:26:29.3418 Info Torznab search in The Pirate Bay for Everything Everywhere All at Once 2022 => Found 60 releases 
+2023-01-12 21:26:31.6650 Warn Some of the categories provided are unsupported in RARBG: 2010,2020 
+2023-01-12 21:26:31.7268 Info Torznab search in The Pirate Bay for Everything Everywhere All at Once 2022 => Found 60 releases (from cache) 
+2023-01-12 21:26:33.5920 Info Torznab search in RARBG => Found 34 releases 
+2023-01-12 21:26:36.2396 Info Torznab search in RARBG => Found 34 releases 
+2023-01-12 21:28:34.1001 Warn Some of the categories provided are unsupported in RARBG: 2010,2020 
+2023-01-12 21:28:34.1001 Info Torznab search in RARBG => Found 34 releases (from cache) 
+2023-01-12 21:28:34.1109 Info Torznab search in The Pirate Bay for Everything Everywhere All at Once 2022 => Found 60 releases (from cache) 
+2023-01-12 21:36:31.9539 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030 
+2023-01-12 21:36:31.9539 Info Torznab search in RARBG => Found 100 releases (from cache) 
+2023-01-12 21:36:31.9619 Info Torznab search in The Pirate Bay => Found 17 releases (from cache) 

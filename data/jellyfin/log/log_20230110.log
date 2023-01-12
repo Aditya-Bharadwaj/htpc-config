@@ -1,0 +1,1030 @@
+[2023-01-10 20:45:00.092 +00:00] [INF] [4] Main: Jellyfin version: "10.8.8"
+[2023-01-10 20:45:00.169 +00:00] [INF] [4] Main: Environment Variables: ["[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_CONFIG_DIR, /config]"]
+[2023-01-10 20:45:00.181 +00:00] [INF] [4] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2023-01-10 20:45:00.185 +00:00] [INF] [4] Main: Operating system: "Linux"
+[2023-01-10 20:45:00.186 +00:00] [INF] [4] Main: Architecture: Arm64
+[2023-01-10 20:45:00.189 +00:00] [INF] [4] Main: 64-Bit Process: True
+[2023-01-10 20:45:00.189 +00:00] [INF] [4] Main: User Interactive: True
+[2023-01-10 20:45:00.189 +00:00] [INF] [4] Main: Processor count: 4
+[2023-01-10 20:45:00.190 +00:00] [INF] [4] Main: Program data path: "/config/data"
+[2023-01-10 20:45:00.190 +00:00] [INF] [4] Main: Web resources path: "/usr/share/jellyfin/web"
+[2023-01-10 20:45:00.191 +00:00] [INF] [4] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2023-01-10 20:45:00.236 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Marking following migrations as applied because this is a fresh install: ["CreateNetworkConfiguration"]
+[2023-01-10 20:45:00.535 +00:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-01-10 20:45:00.560 +00:00] [INF] [4] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2023-01-10 20:45:00.797 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:45:00.797 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:45:00.800 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:45:00.825 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2023-01-10 20:45:00.825 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2023-01-10 20:45:05.222 +00:00] [INF] [4] Jellyfin.Server.Implementations.JellyfinDbProvider: There are pending EFCore migrations in the database. Applying... (This may take a while, do not stop Jellyfin)
+[2023-01-10 20:45:06.746 +00:00] [INF] [4] Jellyfin.Server.Implementations.JellyfinDbProvider: EFCore migrations applied successfully
+[2023-01-10 20:45:08.540 +00:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-01-10 20:45:08.544 +00:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-01-10 20:45:08.563 +00:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.8.8.0"
+[2023-01-10 20:45:08.566 +00:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.8.8.0"
+[2023-01-10 20:45:08.568 +00:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.8.8.0"
+[2023-01-10 20:45:08.570 +00:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.8.8.0"
+[2023-01-10 20:45:08.571 +00:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.8.8.0"
+[2023-01-10 20:45:08.770 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Marking following migrations as applied because this is a fresh install: ["DisableTranscodingThrottling", "CreateLoggingConfigHeirarchy", "MigrateActivityLogDatabase", "RemoveDuplicateExtras", "MigrateUserDatabase", "MigrateDisplayPreferencesDatabase", "RemoveDownloadImagesInAdvance", "MigrateAuthenticationDatabase"]
+[2023-01-10 20:45:08.773 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration '"AddDefaultPluginRepository"'
+[2023-01-10 20:45:08.774 +00:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-01-10 20:45:08.776 +00:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-01-10 20:45:08.777 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration '"AddDefaultPluginRepository"' applied successfully
+[2023-01-10 20:45:08.812 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration '"ReaddDefaultPluginRepository"'
+[2023-01-10 20:45:08.813 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration '"ReaddDefaultPluginRepository"' applied successfully
+[2023-01-10 20:45:08.816 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration '"AddPeopleQueryIndex"'
+[2023-01-10 20:45:08.817 +00:00] [INF] [4] Jellyfin.Server.Migrations.Routines.AddPeopleQueryIndex: Creating index idx_TypedBaseItemsUserDataKeyType
+[2023-01-10 20:45:08.837 +00:00] [INF] [4] Jellyfin.Server.Migrations.Routines.AddPeopleQueryIndex: Creating index idx_PeopleNameListOrder
+[2023-01-10 20:45:08.854 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration '"AddPeopleQueryIndex"' applied successfully
+[2023-01-10 20:45:08.877 +00:00] [INF] [4] Main: Kestrel listening on "Any IP4 Address"
+[2023-01-10 20:45:09.070 +00:00] [WRN] [4] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[2023-01-10 20:45:09.071 +00:00] [WRN] [4] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[2023-01-10 20:45:10.071 +00:00] [WRN] [4] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {d71b3cd4-b898-4820-811c-04e05838aab5} may be persisted to storage in unencrypted form.
+[2023-01-10 20:45:10.156 +00:00] [INF] [4] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2023-01-10 20:45:10.268 +00:00] [INF] [4] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2023-01-11 02:00:00.000 +00:00, which is 05:14:49.7315064 from now.
+[2023-01-10 20:45:10.351 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "5.1.2"
+[2023-01-10 20:45:10.472 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "h264", "hevc", "mpeg2video", "mpeg4", "msmpeg4", "vp8", "libvpx", "vp9", "libvpx-vp9", "aac", "ac3", "flac", "mp3"]
+[2023-01-10 20:45:10.513 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libx264", "h264_v4l2m2m", "libx265", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "flac", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2023-01-10 20:45:10.550 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["hwupload_vaapi", "zscale", "alphasrc"]
+[2023-01-10 20:45:10.585 +00:00] [WRN] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: "scale_cuda" with option "Output format (default \"same\")" is not available
+[2023-01-10 20:45:10.620 +00:00] [WRN] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: "tonemap_cuda" with option "GPU accelerated HDR to SDR tonemapping" is not available
+[2023-01-10 20:45:10.650 +00:00] [WRN] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: "tonemap_opencl" with option "bt2390" is not available
+[2023-01-10 20:45:10.698 +00:00] [WRN] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: "overlay_opencl" with option "Action to take when encountering EOF from secondary input" is not available
+[2023-01-10 20:45:10.700 +00:00] [INF] [6] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:45:10.701 +00:00] [INF] [6] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:45:10.702 +00:00] [INF] [6] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:45:10.733 +00:00] [WRN] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: "overlay_vaapi" with option "Action to take when encountering EOF from secondary input" is not available
+[2023-01-10 20:45:10.765 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["drm"]
+[2023-01-10 20:45:11.011 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2023-01-10 20:45:11.016 +00:00] [INF] [4] Emby.Server.Implementations.ApplicationHost: ServerId: "5fff8ad989464346b045314d21dc65c7"
+[2023-01-10 20:45:11.448 +00:00] [INF] [6] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.4013066
+[2023-01-10 20:45:11.448 +00:00] [INF] [6] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2023-01-10 20:45:12.121 +00:00] [INF] [6] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.6715244
+[2023-01-10 20:45:12.122 +00:00] [INF] [6] Main: Startup complete 0:00:12.5829087
+[2023-01-10 20:45:13.288 +00:00] [INF] [7] Emby.Server.Implementations.ScheduledTasks.TaskManager: "StartupTrigger" fired for task: "Update Plugins"
+[2023-01-10 20:45:13.291 +00:00] [INF] [7] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2023-01-10 20:45:13.302 +00:00] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2023-01-10 20:45:16.056 +00:00] [INF] [4] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 2 seconds
+[2023-01-10 20:45:16.120 +00:00] [INF] [4] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 20:45:36.329 +00:00] [WRN] [21] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://localhost:8096/System/Info/Public" to "127.0.0.1" in 0:00:00.7363879 with Status Code 200
+[2023-01-10 20:45:46.727 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-01-10 20:45:46.731 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-01-10 20:45:46.745 +00:00] [INF] [18] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2023-01-10 20:45:47.251 +00:00] [WRN] [19] Jellyfin.Server.Implementations.Users.UserManager: No users, creating one with username "abc"
+[2023-01-10 20:45:52.468 +00:00] [WRN] [19] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://localhost:8096/Startup/User" to "127.0.0.1" in 0:00:05.3260525 with Status Code 200
+[2023-01-10 20:46:07.670 +00:00] [WRN] [4] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://localhost:8096/Libraries/AvailableOptions?IsNewLibrary=false" to "127.0.0.1" in 0:00:00.608118 with Status Code 200
+[2023-01-10 20:46:10.688 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:46:10.688 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:46:10.688 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:47:10.684 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:47:10.685 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:47:10.685 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:47:16.964 +00:00] [ERR] [32] Jellyfin.Server.Middleware.ExceptionMiddleware: Error processing request: "Could not find a part of the path '/run/s6-rc:s6-rc-init:IHNkMK/servicedirs/svc-jellyfin/\"/\"'". URL "GET" "/Environment/DirectoryContents".
+[2023-01-10 20:48:10.688 +00:00] [INF] [30] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:48:10.689 +00:00] [INF] [30] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:48:10.689 +00:00] [INF] [30] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:49:10.698 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:49:10.699 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:49:10.699 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:49:52.065 +00:00] [ERR] [31] Jellyfin.Server.Middleware.ExceptionMiddleware: Error processing request: "Could not find a part of the path '/run/s6-rc:s6-rc-init:IHNkMK/servicedirs/svc-jellyfin/\"/\"'". URL "GET" "/Environment/DirectoryContents".
+[2023-01-10 20:50:01.137 +00:00] [ERR] [35] Jellyfin.Server.Middleware.ExceptionMiddleware: Error processing request: "Could not find a part of the path '/media/movies'". URL "GET" "/Environment/DirectoryContents".
+[2023-01-10 20:50:10.683 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:50:10.683 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:50:10.683 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:51:10.680 +00:00] [INF] [36] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:51:10.680 +00:00] [INF] [36] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:51:10.680 +00:00] [INF] [36] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:52:10.696 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:52:10.699 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:52:10.701 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:52:25.450 +00:00] [INF] [17] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-01-10 20:52:25.452 +00:00] [INF] [17] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-01-10 20:52:37.071 +00:00] [ERR] [17] Jellyfin.Server.Middleware.ExceptionMiddleware: Error processing request: "Could not find a part of the path '/media/movies'". URL "GET" "/Environment/DirectoryContents".
+[2023-01-10 20:53:10.693 +00:00] [INF] [25] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:53:10.695 +00:00] [INF] [25] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:53:10.696 +00:00] [INF] [25] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:54:10.702 +00:00] [INF] [24] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:54:10.702 +00:00] [INF] [24] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:54:10.702 +00:00] [INF] [24] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:55:10.690 +00:00] [INF] [43] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:55:10.692 +00:00] [INF] [43] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:55:10.698 +00:00] [INF] [43] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:56:10.695 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:56:10.695 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:56:10.695 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:56:40.915 +00:00] [WRN] [50] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://localhost:8096/Library/VirtualFolders?collectionType=movies&refreshLibrary=false&name=Movies" to "127.0.0.1" in 0:00:01.497001 with Status Code 204
+[2023-01-10 20:57:10.690 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:57:10.690 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:57:10.690 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:57:27.791 +00:00] [WRN] [41] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://localhost:8096/Library/VirtualFolders?collectionType=tvshows&refreshLibrary=false&name=Shows" to "127.0.0.1" in 0:00:01.0212195 with Status Code 204
+[2023-01-10 20:57:33.597 +00:00] [INF] [47] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-01-10 20:57:33.600 +00:00] [INF] [47] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-01-10 20:57:45.065 +00:00] [INF] [44] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:57:45.066 +00:00] [INF] [44] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:57:45.066 +00:00] [INF] [44] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:57:45.067 +00:00] [INF] [44] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2023-01-10 20:57:45.067 +00:00] [INF] [44] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2023-01-10 20:57:46.439 +00:00] [INF] [43] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-01-10 20:57:46.441 +00:00] [INF] [43] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-01-10 20:57:46.452 +00:00] [INF] [47] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2023-01-10 20:57:46.452 +00:00] [INF] [47] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2023-01-10 20:57:46.491 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2023-01-10 20:57:50.213 +00:00] [ERR] [47] Emby.Server.Implementations.Library.LibraryManager: Error running post-scan task
+System.ArgumentException: Not enough valid pictures provided to create a splashscreen!
+   at Jellyfin.Drawing.Skia.SplashscreenBuilder.GenerateCollage(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops)
+   at Jellyfin.Drawing.Skia.SplashscreenBuilder.GenerateSplash(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops, String outputPath)
+   at Jellyfin.Drawing.Skia.SkiaEncoder.CreateSplashscreen(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops)
+   at Emby.Server.Implementations.Library.SplashscreenPostScanTask.Run(IProgress`1 progress, CancellationToken cancellationToken)
+   at Emby.Server.Implementations.Library.LibraryManager.RunPostScanTasks(IProgress`1 progress, CancellationToken cancellationToken)
+[2023-01-10 20:57:50.560 +00:00] [INF] [47] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 4 seconds
+[2023-01-10 20:57:50.573 +00:00] [INF] [47] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 20:57:50.700 +00:00] [INF] [45] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/tv"
+[2023-01-10 20:57:50.713 +00:00] [INF] [43] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/movies"
+[2023-01-10 20:57:54.057 +00:00] [INF] [46] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "pi" has succeeded.
+[2023-01-10 20:57:54.063 +00:00] [INF] [46] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "pi": 0/0
+[2023-01-10 20:57:54.480 +00:00] [INF] [46] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 3c224c0c-69fb-4cce-b25b-a735c54366e7
+[2023-01-10 20:57:55.968 +00:00] [WRN] [46] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://localhost:8096/Users/authenticatebyname" to "127.0.0.1" in 0:00:02.0918835 with Status Code 200
+[2023-01-10 20:57:56.157 +00:00] [INF] [46] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "127.0.0.1" request
+[2023-01-10 20:57:56.643 +00:00] [WRN] [45] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://localhost:8096/Sessions/Capabilities/Full" to "127.0.0.1" in 0:00:00.6238689 with Status Code 204
+[2023-01-10 20:57:56.995 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"AccessSchedule"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.996 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"ActivityLog"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.997 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"CustomItemDisplayPreferences"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.997 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"DisplayPreferences"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.998 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"HomeSection"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.998 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"ImageInfo"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.998 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"ItemDisplayPreferences"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.998 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"Permission"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.999 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"Preference"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.999 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"ApiKey"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.999 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"Device"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.999 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"DeviceOptions"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:56.999 +00:00] [WRN] [47] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"User"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-01-10 20:57:58.334 +00:00] [WRN] [47] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://localhost:8096/DisplayPreferences/usersettings?userId=3c224c0c69fb4cceb25ba735c54366e7&client=emby" to "127.0.0.1" in 0:00:02.2783359 with Status Code 200
+[2023-01-10 20:57:59.616 +00:00] [WRN] [43] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://localhost:8096/Users/3c224c0c69fb4cceb25ba735c54366e7/Views" to "127.0.0.1" in 0:00:01.0212494 with Status Code 200
+[2023-01-10 20:58:10.701 +00:00] [INF] [43] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:58:10.702 +00:00] [INF] [43] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:58:10.702 +00:00] [INF] [43] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:59:10.695 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 20:59:10.695 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 20:59:10.695 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:00:10.709 +00:00] [INF] [25] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:00:10.710 +00:00] [INF] [25] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:00:10.711 +00:00] [INF] [25] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:01:10.716 +00:00] [INF] [19] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:01:10.716 +00:00] [INF] [19] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:01:10.717 +00:00] [INF] [19] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:02:10.693 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:02:10.693 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:02:10.693 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:03:10.708 +00:00] [INF] [39] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:03:10.710 +00:00] [INF] [39] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:03:10.710 +00:00] [INF] [39] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:03:44.441 +00:00] [INF] [3] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:04:10.702 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:04:10.704 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:04:10.704 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:04:32.443 +00:00] [INF] [27] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:04:44.444 +00:00] [INF] [27] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:05:10.711 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:05:10.713 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:05:10.713 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:05:32.450 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:05:44.454 +00:00] [INF] [37] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:06:10.721 +00:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:06:10.721 +00:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:06:10.722 +00:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:06:32.455 +00:00] [INF] [31] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:06:44.452 +00:00] [INF] [28] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:07:10.745 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:07:10.745 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:07:10.746 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:07:32.463 +00:00] [INF] [28] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:07:44.469 +00:00] [INF] [21] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:08:10.705 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:08:10.705 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:08:10.705 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:08:32.471 +00:00] [INF] [30] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:08:44.472 +00:00] [INF] [39] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:09:10.719 +00:00] [INF] [40] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:09:10.720 +00:00] [INF] [40] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:09:10.720 +00:00] [INF] [40] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:09:32.479 +00:00] [INF] [39] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:09:44.480 +00:00] [INF] [7] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:10:10.712 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:10:10.713 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:10:10.713 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:10:32.488 +00:00] [INF] [22] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:10:44.492 +00:00] [INF] [22] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:11:10.712 +00:00] [INF] [36] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:11:10.713 +00:00] [INF] [36] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:11:10.714 +00:00] [INF] [36] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:11:32.497 +00:00] [INF] [20] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:11:44.498 +00:00] [INF] [34] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:12:10.717 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:12:10.719 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:12:10.719 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:12:32.503 +00:00] [INF] [7] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:12:44.503 +00:00] [INF] [7] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:13:10.724 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:13:10.726 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:13:10.726 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:13:32.508 +00:00] [INF] [28] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:13:44.509 +00:00] [INF] [28] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:14:10.719 +00:00] [INF] [40] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:14:10.722 +00:00] [INF] [40] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:14:10.724 +00:00] [INF] [40] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:14:32.514 +00:00] [INF] [22] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:14:44.512 +00:00] [INF] [22] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:15:10.731 +00:00] [INF] [36] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:15:10.733 +00:00] [INF] [36] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:15:10.734 +00:00] [INF] [36] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:15:32.518 +00:00] [INF] [34] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:15:44.518 +00:00] [INF] [3] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:16:10.712 +00:00] [INF] [34] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:16:10.714 +00:00] [INF] [34] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:16:10.714 +00:00] [INF] [34] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:16:32.519 +00:00] [INF] [30] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:16:44.518 +00:00] [INF] [34] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:17:10.736 +00:00] [INF] [34] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:17:10.737 +00:00] [INF] [34] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:17:10.738 +00:00] [INF] [34] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:17:32.528 +00:00] [INF] [29] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:17:44.531 +00:00] [INF] [53] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:18:10.741 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:18:10.742 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:18:10.742 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:18:32.543 +00:00] [INF] [29] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:18:44.548 +00:00] [INF] [40] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:19:10.714 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:19:10.715 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:19:10.715 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:19:32.556 +00:00] [INF] [18] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:19:44.558 +00:00] [INF] [38] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:20:10.717 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:20:10.717 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:20:10.717 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:20:32.564 +00:00] [INF] [18] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:20:44.565 +00:00] [INF] [38] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:21:10.717 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:21:10.717 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:21:10.718 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:21:32.573 +00:00] [INF] [20] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:21:44.575 +00:00] [INF] [21] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:22:10.722 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:22:10.722 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:22:10.722 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:22:32.582 +00:00] [INF] [3] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:22:44.580 +00:00] [INF] [3] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:23:10.732 +00:00] [INF] [3] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:23:10.732 +00:00] [INF] [3] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:23:10.732 +00:00] [INF] [3] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:23:32.582 +00:00] [INF] [37] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:23:44.583 +00:00] [INF] [37] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:24:10.710 +00:00] [INF] [22] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:24:10.711 +00:00] [INF] [22] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:24:10.711 +00:00] [INF] [22] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:24:32.587 +00:00] [INF] [28] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:24:44.589 +00:00] [INF] [58] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:25:10.726 +00:00] [INF] [58] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:25:10.727 +00:00] [INF] [58] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:25:10.727 +00:00] [INF] [58] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:25:32.595 +00:00] [INF] [56] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:25:44.592 +00:00] [INF] [67] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:26:10.727 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:26:10.727 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:26:10.727 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:26:32.603 +00:00] [INF] [61] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:26:44.606 +00:00] [INF] [57] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:27:10.727 +00:00] [INF] [63] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:27:10.728 +00:00] [INF] [63] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:27:10.729 +00:00] [INF] [63] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:27:32.611 +00:00] [INF] [37] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:27:44.610 +00:00] [INF] [37] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:28:10.728 +00:00] [INF] [61] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:28:10.728 +00:00] [INF] [61] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:28:10.729 +00:00] [INF] [61] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:28:32.619 +00:00] [INF] [56] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:28:44.620 +00:00] [INF] [56] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:29:10.733 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:29:10.734 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:29:10.735 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:29:32.627 +00:00] [INF] [70] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:29:44.629 +00:00] [INF] [77] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:30:10.727 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:30:10.727 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:30:10.728 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:30:32.638 +00:00] [INF] [22] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:30:44.643 +00:00] [INF] [22] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:31:10.734 +00:00] [INF] [78] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:31:10.735 +00:00] [INF] [78] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:31:10.735 +00:00] [INF] [78] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:31:32.646 +00:00] [INF] [65] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:31:44.648 +00:00] [INF] [65] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:32:10.733 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:32:10.735 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:32:10.736 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:32:32.650 +00:00] [INF] [79] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:32:44.651 +00:00] [INF] [67] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:33:10.740 +00:00] [INF] [67] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:33:10.740 +00:00] [INF] [67] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:33:10.740 +00:00] [INF] [67] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:33:32.666 +00:00] [INF] [19] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:33:44.667 +00:00] [INF] [77] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:34:10.745 +00:00] [INF] [57] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:34:10.745 +00:00] [INF] [57] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:34:10.746 +00:00] [INF] [57] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:34:32.675 +00:00] [INF] [57] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:34:44.678 +00:00] [INF] [60] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:35:10.751 +00:00] [INF] [60] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:35:10.751 +00:00] [INF] [60] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:35:10.751 +00:00] [INF] [60] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:35:32.687 +00:00] [INF] [67] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:35:44.687 +00:00] [INF] [76] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:36:10.721 +00:00] [INF] [63] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:36:10.721 +00:00] [INF] [63] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:36:10.721 +00:00] [INF] [63] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:36:32.691 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:36:44.692 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:37:10.789 +00:00] [INF] [60] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:37:10.790 +00:00] [INF] [60] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:37:10.792 +00:00] [INF] [60] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:37:32.702 +00:00] [INF] [64] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:37:44.703 +00:00] [INF] [64] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:38:10.735 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:38:10.735 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:38:10.735 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:38:32.705 +00:00] [INF] [35] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:38:44.704 +00:00] [INF] [35] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:39:10.737 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:39:10.738 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:39:10.738 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:39:32.711 +00:00] [INF] [35] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:39:44.712 +00:00] [INF] [71] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:40:10.740 +00:00] [INF] [55] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:40:10.741 +00:00] [INF] [55] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:40:10.741 +00:00] [INF] [55] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:40:32.714 +00:00] [INF] [35] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:40:44.714 +00:00] [INF] [75] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:41:10.747 +00:00] [INF] [35] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:41:10.748 +00:00] [INF] [35] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:41:10.748 +00:00] [INF] [35] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:41:32.717 +00:00] [INF] [12] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:41:44.720 +00:00] [INF] [12] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:42:10.741 +00:00] [INF] [65] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:42:10.741 +00:00] [INF] [65] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:42:10.742 +00:00] [INF] [65] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:42:32.723 +00:00] [INF] [69] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:42:44.723 +00:00] [INF] [69] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:43:10.756 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:43:10.757 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:43:10.757 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:43:32.733 +00:00] [INF] [18] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:43:44.735 +00:00] [INF] [18] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:44:10.733 +00:00] [INF] [18] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:44:10.733 +00:00] [INF] [18] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:44:10.733 +00:00] [INF] [18] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:44:32.742 +00:00] [INF] [12] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:44:44.749 +00:00] [INF] [72] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:45:10.265 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Download missing subtitles"
+[2023-01-10 21:45:10.266 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "SubtitleScheduledTask"
+[2023-01-10 21:45:10.268 +00:00] [INF] [54] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Download missing subtitles"
+[2023-01-10 21:45:10.271 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Log Directory"
+[2023-01-10 21:45:10.271 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteLogFileTask"
+[2023-01-10 21:45:10.271 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Cache Directory"
+[2023-01-10 21:45:10.272 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Log Directory"
+[2023-01-10 21:45:10.273 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteCacheFileTask"
+[2023-01-10 21:45:10.274 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Cache Directory"
+[2023-01-10 21:45:10.278 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Transcode Directory"
+[2023-01-10 21:45:10.281 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteTranscodeFileTask"
+[2023-01-10 21:45:10.284 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Transcode Directory"
+[2023-01-10 21:45:10.288 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2023-01-10 21:45:10.292 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 21:45:10.391 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Update Plugins"
+[2023-01-10 21:45:10.391 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2023-01-10 21:45:10.392 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2023-01-10 21:45:10.397 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2023-01-10 21:45:10.400 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 21:45:10.469 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2023-01-10 21:45:10.470 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Optimize database"
+[2023-01-10 21:45:10.470 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "OptimizeDatabaseTask"
+[2023-01-10 21:45:10.470 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 21:45:10.538 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh People"
+[2023-01-10 21:45:10.538 +00:00] [INF] [54] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2023-01-10 21:45:10.538 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PeopleValidationTask"
+[2023-01-10 21:45:10.539 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh People"
+[2023-01-10 21:45:10.538 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Optimize database"
+[2023-01-10 21:45:10.540 +00:00] [INF] [54] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 21:45:10.608 +00:00] [INF] [54] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan Media Library"
+[2023-01-10 21:45:10.608 +00:00] [INF] [54] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2023-01-10 21:45:10.608 +00:00] [INF] [54] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2023-01-10 21:45:10.610 +00:00] [INF] [54] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/movies"
+[2023-01-10 21:45:10.610 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2023-01-10 21:45:10.612 +00:00] [INF] [54] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/tv"
+[2023-01-10 21:45:10.613 +00:00] [INF] [54] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2023-01-10 21:45:10.654 +00:00] [INF] [40] Emby.Server.Implementations.Library.LibraryManager: People validation complete
+[2023-01-10 21:45:10.654 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh People" Completed after 0 minute(s) and 0 seconds
+[2023-01-10 21:45:10.655 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 21:45:10.724 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: jellyfin.db optimized successfully!
+[2023-01-10 21:45:10.724 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh Guide"
+[2023-01-10 21:45:10.724 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshGuideScheduledTask"
+[2023-01-10 21:45:10.724 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh Guide"
+[2023-01-10 21:45:10.724 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2023-01-10 21:45:10.726 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 21:45:10.797 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:45:10.797 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:45:10.797 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:45:10.801 +00:00] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "TasksRefreshChannels"
+[2023-01-10 21:45:10.802 +00:00] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshChannelsScheduledTask"
+[2023-01-10 21:45:10.802 +00:00] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "TasksRefreshChannels"
+[2023-01-10 21:45:10.826 +00:00] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2023-01-10 21:45:10.827 +00:00] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 21:45:11.009 +00:00] [ERR] [12] Emby.Server.Implementations.Library.LibraryManager: Error running post-scan task
+System.ArgumentException: Not enough valid pictures provided to create a splashscreen!
+   at Jellyfin.Drawing.Skia.SplashscreenBuilder.GenerateCollage(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops)
+   at Jellyfin.Drawing.Skia.SplashscreenBuilder.GenerateSplash(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops, String outputPath)
+   at Jellyfin.Drawing.Skia.SkiaEncoder.CreateSplashscreen(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops)
+   at Emby.Server.Implementations.Library.SplashscreenPostScanTask.Run(IProgress`1 progress, CancellationToken cancellationToken)
+   at Emby.Server.Implementations.Library.LibraryManager.RunPostScanTasks(IProgress`1 progress, CancellationToken cancellationToken)
+[2023-01-10 21:45:11.015 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2023-01-10 21:45:11.015 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 21:45:11.083 +00:00] [INF] [68] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/movies"
+[2023-01-10 21:45:11.089 +00:00] [INF] [38] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/tv"
+[2023-01-10 21:45:12.929 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 2 seconds
+[2023-01-10 21:45:12.930 +00:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 21:45:14.045 +00:00] [INF] [30] Emby.Server.Implementations.LiveTv.LiveTvManager: Refreshing guide with 7 days of guide data
+[2023-01-10 21:45:14.072 +00:00] [INF] [30] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2023-01-10 21:45:14.073 +00:00] [INF] [30] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 21:45:32.754 +00:00] [INF] [68] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:45:44.754 +00:00] [INF] [72] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:46:10.748 +00:00] [INF] [68] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:46:10.750 +00:00] [INF] [68] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:46:10.751 +00:00] [INF] [68] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:46:32.762 +00:00] [INF] [4] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:46:44.763 +00:00] [INF] [56] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:47:10.741 +00:00] [INF] [66] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:47:10.743 +00:00] [INF] [66] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:47:10.743 +00:00] [INF] [66] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:47:32.770 +00:00] [INF] [64] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:47:44.771 +00:00] [INF] [64] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:48:10.745 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:48:10.746 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:48:10.746 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:48:32.781 +00:00] [INF] [59] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:48:44.790 +00:00] [INF] [37] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:49:10.748 +00:00] [INF] [65] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:49:10.749 +00:00] [INF] [65] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:49:10.750 +00:00] [INF] [65] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:49:32.794 +00:00] [INF] [20] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:49:44.796 +00:00] [INF] [20] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:50:10.758 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:50:10.759 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:50:10.759 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:50:32.802 +00:00] [INF] [34] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:50:44.807 +00:00] [INF] [49] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:51:10.759 +00:00] [INF] [31] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:51:10.760 +00:00] [INF] [31] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:51:10.761 +00:00] [INF] [31] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:51:32.811 +00:00] [INF] [3] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:51:44.814 +00:00] [INF] [31] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:52:10.749 +00:00] [INF] [3] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:52:10.750 +00:00] [INF] [3] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:52:10.750 +00:00] [INF] [3] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:52:32.819 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:52:44.821 +00:00] [INF] [56] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:53:10.744 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:53:10.748 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:53:10.748 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:53:32.824 +00:00] [INF] [34] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:53:44.826 +00:00] [INF] [34] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:54:10.754 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:54:10.754 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:54:10.755 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:54:32.830 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:54:44.829 +00:00] [INF] [71] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:55:10.758 +00:00] [INF] [71] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:55:10.758 +00:00] [INF] [71] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:55:10.759 +00:00] [INF] [71] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:55:32.836 +00:00] [INF] [19] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:55:44.838 +00:00] [INF] [19] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:56:10.754 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:56:10.755 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:56:10.755 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:56:32.850 +00:00] [INF] [36] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:56:44.851 +00:00] [INF] [36] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:57:10.753 +00:00] [INF] [59] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:57:10.753 +00:00] [INF] [59] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:57:10.753 +00:00] [INF] [59] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:57:32.855 +00:00] [INF] [69] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:57:44.856 +00:00] [INF] [69] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:58:10.752 +00:00] [INF] [59] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:58:10.752 +00:00] [INF] [59] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:58:10.752 +00:00] [INF] [59] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:58:32.866 +00:00] [INF] [61] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:58:44.866 +00:00] [INF] [61] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:59:10.761 +00:00] [INF] [69] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:59:10.761 +00:00] [INF] [69] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 21:59:10.761 +00:00] [INF] [69] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 21:59:32.878 +00:00] [INF] [39] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 21:59:44.880 +00:00] [INF] [39] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:00:10.756 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:00:10.757 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:00:10.757 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:00:32.882 +00:00] [INF] [31] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:00:44.884 +00:00] [INF] [31] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:01:10.759 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:01:10.759 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:01:10.760 +00:00] [INF] [26] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:01:32.891 +00:00] [INF] [66] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:01:44.889 +00:00] [INF] [20] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:02:10.756 +00:00] [INF] [61] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:02:10.757 +00:00] [INF] [61] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:02:10.758 +00:00] [INF] [61] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:02:32.896 +00:00] [INF] [42] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:02:44.898 +00:00] [INF] [33] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:03:10.770 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:03:10.771 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:03:10.771 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:03:32.903 +00:00] [INF] [65] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:03:44.906 +00:00] [INF] [65] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:04:10.762 +00:00] [INF] [65] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:04:10.763 +00:00] [INF] [65] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:04:10.763 +00:00] [INF] [65] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:04:32.911 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:04:44.908 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:05:10.762 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:05:10.763 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:05:10.763 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:05:32.915 +00:00] [INF] [50] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:05:44.915 +00:00] [INF] [50] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:06:10.769 +00:00] [INF] [50] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:06:10.769 +00:00] [INF] [50] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:06:10.770 +00:00] [INF] [50] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:06:32.920 +00:00] [INF] [50] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:06:44.921 +00:00] [INF] [50] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:07:10.753 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:07:10.754 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:07:10.754 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:07:32.923 +00:00] [INF] [43] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:07:44.926 +00:00] [INF] [18] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:08:10.764 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:08:10.765 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:08:10.766 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:08:32.935 +00:00] [INF] [33] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:08:44.938 +00:00] [INF] [24] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:09:10.773 +00:00] [INF] [41] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:09:10.773 +00:00] [INF] [41] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:09:10.774 +00:00] [INF] [41] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:09:32.943 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:09:44.943 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:10:10.772 +00:00] [INF] [25] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:10:10.772 +00:00] [INF] [25] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:10:10.772 +00:00] [INF] [25] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:10:32.947 +00:00] [INF] [75] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:10:44.947 +00:00] [INF] [75] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:11:10.773 +00:00] [INF] [24] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:11:10.774 +00:00] [INF] [24] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:11:10.774 +00:00] [INF] [24] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:11:32.947 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:11:44.952 +00:00] [INF] [66] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:12:10.788 +00:00] [INF] [23] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:12:10.789 +00:00] [INF] [23] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:12:10.789 +00:00] [INF] [23] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:12:32.966 +00:00] [INF] [75] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:12:44.970 +00:00] [INF] [45] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:13:10.770 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:13:10.771 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:13:10.772 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:13:32.973 +00:00] [INF] [82] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:13:44.975 +00:00] [INF] [82] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:14:10.772 +00:00] [INF] [76] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:14:10.772 +00:00] [INF] [76] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:14:10.772 +00:00] [INF] [76] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:14:32.980 +00:00] [INF] [33] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:14:44.983 +00:00] [INF] [84] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:15:10.781 +00:00] [INF] [89] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:15:10.783 +00:00] [INF] [89] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:15:10.783 +00:00] [INF] [89] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:15:32.988 +00:00] [INF] [41] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:16:10.780 +00:00] [INF] [45] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:16:10.781 +00:00] [INF] [45] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:16:10.781 +00:00] [INF] [45] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:16:32.995 +00:00] [INF] [45] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:17:10.784 +00:00] [INF] [24] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:17:10.784 +00:00] [INF] [24] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:17:10.784 +00:00] [INF] [24] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:17:33.002 +00:00] [INF] [95] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:18:10.888 +00:00] [INF] [88] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:18:10.889 +00:00] [INF] [88] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:18:10.889 +00:00] [INF] [88] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:18:33.005 +00:00] [INF] [94] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:19:10.780 +00:00] [INF] [93] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:19:10.780 +00:00] [INF] [93] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:19:10.780 +00:00] [INF] [93] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:19:33.014 +00:00] [INF] [93] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:20:10.784 +00:00] [INF] [81] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:20:10.784 +00:00] [INF] [81] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:20:10.784 +00:00] [INF] [81] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:20:33.019 +00:00] [INF] [79] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:21:10.775 +00:00] [INF] [83] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:21:10.775 +00:00] [INF] [83] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:21:10.776 +00:00] [INF] [83] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:21:33.031 +00:00] [INF] [83] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:22:10.786 +00:00] [INF] [83] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:22:10.786 +00:00] [INF] [83] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:22:10.786 +00:00] [INF] [83] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:22:33.038 +00:00] [INF] [83] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:23:10.779 +00:00] [INF] [23] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:23:10.781 +00:00] [INF] [23] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:23:10.781 +00:00] [INF] [23] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:23:33.046 +00:00] [INF] [29] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:24:10.776 +00:00] [INF] [84] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:24:10.777 +00:00] [INF] [84] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:24:10.777 +00:00] [INF] [84] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:24:33.050 +00:00] [INF] [90] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:25:10.783 +00:00] [INF] [73] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:25:10.784 +00:00] [INF] [73] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:25:10.784 +00:00] [INF] [73] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:25:33.058 +00:00] [INF] [34] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:26:10.785 +00:00] [INF] [34] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:26:10.792 +00:00] [INF] [34] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:26:10.792 +00:00] [INF] [34] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:26:33.060 +00:00] [INF] [31] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:27:10.794 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:27:10.794 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:27:10.794 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:27:33.066 +00:00] [INF] [20] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:28:10.779 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:28:10.780 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:28:10.780 +00:00] [INF] [33] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:28:33.071 +00:00] [INF] [42] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:29:10.785 +00:00] [INF] [50] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:29:10.785 +00:00] [INF] [50] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:29:10.785 +00:00] [INF] [50] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:29:33.082 +00:00] [INF] [48] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:30:10.792 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:30:10.792 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:30:10.792 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:30:33.086 +00:00] [INF] [7] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:31:10.788 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:31:10.790 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:31:10.790 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:31:33.099 +00:00] [INF] [70] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:32:10.792 +00:00] [INF] [32] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:32:10.793 +00:00] [INF] [32] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:32:10.793 +00:00] [INF] [32] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:32:33.106 +00:00] [INF] [56] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:33:10.789 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:33:10.789 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:33:10.789 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:33:33.110 +00:00] [INF] [61] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:34:10.789 +00:00] [INF] [59] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:34:10.789 +00:00] [INF] [59] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:34:10.789 +00:00] [INF] [59] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:34:33.114 +00:00] [INF] [3] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:35:10.787 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:35:10.787 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:35:10.787 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:35:33.122 +00:00] [INF] [67] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:36:10.789 +00:00] [INF] [35] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:36:10.791 +00:00] [INF] [35] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:36:10.791 +00:00] [INF] [35] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:36:33.126 +00:00] [INF] [38] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:37:10.792 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:37:10.793 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:37:10.794 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:37:33.132 +00:00] [INF] [95] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:38:10.789 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:38:10.791 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:38:10.791 +00:00] [INF] [38] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:38:33.142 +00:00] [INF] [55] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:39:10.802 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:39:10.802 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:39:10.803 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:39:33.147 +00:00] [INF] [104] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:40:10.793 +00:00] [INF] [51] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:40:10.794 +00:00] [INF] [51] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:40:10.794 +00:00] [INF] [51] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:40:33.153 +00:00] [INF] [98] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:41:10.787 +00:00] [INF] [108] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:41:10.788 +00:00] [INF] [108] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:41:10.788 +00:00] [INF] [108] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:41:33.160 +00:00] [INF] [58] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:42:10.796 +00:00] [INF] [104] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:42:10.797 +00:00] [INF] [104] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:42:10.798 +00:00] [INF] [104] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:42:33.166 +00:00] [INF] [109] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:43:10.798 +00:00] [INF] [96] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:43:10.799 +00:00] [INF] [96] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:43:10.799 +00:00] [INF] [96] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:43:33.176 +00:00] [INF] [58] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:44:10.806 +00:00] [INF] [58] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:44:10.807 +00:00] [INF] [58] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:44:10.807 +00:00] [INF] [58] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:44:33.183 +00:00] [INF] [101] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:45:10.801 +00:00] [INF] [95] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:45:10.802 +00:00] [INF] [95] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:45:10.802 +00:00] [INF] [95] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:45:11.724 +00:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh Guide"
+[2023-01-10 22:45:11.724 +00:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshGuideScheduledTask"
+[2023-01-10 22:45:11.724 +00:00] [INF] [95] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh Guide"
+[2023-01-10 22:45:14.731 +00:00] [INF] [95] Emby.Server.Implementations.LiveTv.LiveTvManager: Refreshing guide with 7 days of guide data
+[2023-01-10 22:45:14.733 +00:00] [INF] [95] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2023-01-10 22:45:14.735 +00:00] [INF] [95] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-01-10 22:45:33.192 +00:00] [INF] [95] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:46:10.824 +00:00] [INF] [114] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:46:10.825 +00:00] [INF] [114] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:46:10.825 +00:00] [INF] [114] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:46:33.202 +00:00] [INF] [109] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:47:10.794 +00:00] [INF] [114] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:47:10.795 +00:00] [INF] [114] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:47:10.795 +00:00] [INF] [114] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:47:33.215 +00:00] [INF] [58] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:48:10.807 +00:00] [INF] [96] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:48:10.808 +00:00] [INF] [96] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:48:10.808 +00:00] [INF] [96] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:48:33.219 +00:00] [INF] [55] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:49:10.803 +00:00] [INF] [103] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:49:10.804 +00:00] [INF] [103] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:49:10.804 +00:00] [INF] [103] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:49:33.226 +00:00] [INF] [62] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:50:10.807 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:50:10.808 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:50:10.808 +00:00] [INF] [12] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:50:33.242 +00:00] [INF] [38] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:51:10.797 +00:00] [INF] [42] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:51:10.797 +00:00] [INF] [42] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:51:10.798 +00:00] [INF] [42] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:51:33.247 +00:00] [INF] [67] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:52:10.810 +00:00] [INF] [67] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:52:10.811 +00:00] [INF] [67] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:52:10.811 +00:00] [INF] [67] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:52:33.252 +00:00] [INF] [50] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:53:10.797 +00:00] [INF] [40] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:53:10.798 +00:00] [INF] [40] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:53:10.798 +00:00] [INF] [40] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:53:33.259 +00:00] [INF] [50] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:54:10.812 +00:00] [INF] [3] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:54:10.813 +00:00] [INF] [3] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:54:10.813 +00:00] [INF] [3] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:54:33.264 +00:00] [INF] [37] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:55:10.806 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:55:10.806 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:55:10.807 +00:00] [INF] [37] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:55:33.275 +00:00] [INF] [40] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:56:10.820 +00:00] [INF] [63] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:56:10.821 +00:00] [INF] [63] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:56:10.822 +00:00] [INF] [63] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:56:33.278 +00:00] [INF] [106] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:57:10.808 +00:00] [INF] [19] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:57:10.808 +00:00] [INF] [19] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:57:10.808 +00:00] [INF] [19] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:57:33.282 +00:00] [INF] [28] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:58:10.808 +00:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:58:10.809 +00:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:58:10.809 +00:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:58:33.289 +00:00] [INF] [19] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 22:59:10.825 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:59:10.826 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 22:59:10.826 +00:00] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 22:59:33.301 +00:00] [INF] [33] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:00:10.824 +00:00] [INF] [19] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:00:10.825 +00:00] [INF] [19] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:00:10.825 +00:00] [INF] [19] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:00:33.307 +00:00] [INF] [92] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:01:10.822 +00:00] [INF] [74] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:01:10.822 +00:00] [INF] [74] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:01:10.822 +00:00] [INF] [74] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:01:33.311 +00:00] [INF] [29] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:02:10.837 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:02:10.839 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:02:10.839 +00:00] [INF] [20] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:02:33.314 +00:00] [INF] [29] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:03:10.820 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:03:10.820 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:03:10.820 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:03:33.323 +00:00] [INF] [18] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:04:10.817 +00:00] [INF] [18] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:04:10.817 +00:00] [INF] [18] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:04:10.817 +00:00] [INF] [18] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:04:33.335 +00:00] [INF] [27] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:05:10.816 +00:00] [INF] [57] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:05:10.817 +00:00] [INF] [57] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:05:10.817 +00:00] [INF] [57] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:05:33.343 +00:00] [INF] [48] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:06:10.821 +00:00] [INF] [39] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:06:10.822 +00:00] [INF] [39] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:06:10.822 +00:00] [INF] [39] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:06:33.346 +00:00] [INF] [46] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:07:10.821 +00:00] [INF] [91] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:07:10.821 +00:00] [INF] [91] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:07:10.822 +00:00] [INF] [91] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:07:33.351 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:08:10.824 +00:00] [INF] [91] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:08:10.824 +00:00] [INF] [91] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:08:10.824 +00:00] [INF] [91] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:08:33.357 +00:00] [INF] [73] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:09:10.812 +00:00] [INF] [77] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:09:10.812 +00:00] [INF] [77] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:09:10.812 +00:00] [INF] [77] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:09:33.365 +00:00] [INF] [57] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:10:10.831 +00:00] [INF] [57] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:10:10.831 +00:00] [INF] [57] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:10:10.831 +00:00] [INF] [57] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:10:33.380 +00:00] [INF] [41] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:11:10.821 +00:00] [INF] [93] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:11:10.821 +00:00] [INF] [93] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:11:10.821 +00:00] [INF] [93] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:11:33.384 +00:00] [INF] [76] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:12:10.833 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:12:10.834 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:12:10.834 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:12:33.388 +00:00] [INF] [84] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:13:10.825 +00:00] [INF] [88] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:13:10.825 +00:00] [INF] [88] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:13:10.825 +00:00] [INF] [88] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:13:33.397 +00:00] [INF] [45] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:14:10.840 +00:00] [INF] [45] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:14:10.841 +00:00] [INF] [45] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:14:10.842 +00:00] [INF] [45] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:14:33.410 +00:00] [INF] [86] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:15:10.821 +00:00] [INF] [113] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:15:10.822 +00:00] [INF] [113] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:15:10.823 +00:00] [INF] [113] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:15:33.422 +00:00] [INF] [117] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:16:10.831 +00:00] [INF] [116] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:16:10.832 +00:00] [INF] [116] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:16:10.832 +00:00] [INF] [116] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:16:33.427 +00:00] [INF] [116] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:17:10.822 +00:00] [INF] [116] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:17:10.823 +00:00] [INF] [116] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:17:10.823 +00:00] [INF] [116] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:17:33.439 +00:00] [INF] [51] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:18:10.825 +00:00] [INF] [113] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:18:10.826 +00:00] [INF] [113] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:18:10.826 +00:00] [INF] [113] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:18:33.456 +00:00] [INF] [113] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:19:10.827 +00:00] [INF] [93] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:19:10.828 +00:00] [INF] [93] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:19:10.828 +00:00] [INF] [93] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:19:33.461 +00:00] [INF] [88] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:20:10.840 +00:00] [INF] [88] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:20:10.841 +00:00] [INF] [88] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:20:10.842 +00:00] [INF] [88] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:20:33.467 +00:00] [INF] [30] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:21:10.838 +00:00] [INF] [44] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:21:10.838 +00:00] [INF] [44] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:21:10.839 +00:00] [INF] [44] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:21:33.477 +00:00] [INF] [78] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:22:10.830 +00:00] [INF] [76] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:22:10.830 +00:00] [INF] [76] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:22:10.831 +00:00] [INF] [76] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:22:33.485 +00:00] [INF] [80] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:23:10.846 +00:00] [INF] [77] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:23:10.846 +00:00] [INF] [77] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:23:10.847 +00:00] [INF] [77] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:23:33.490 +00:00] [INF] [80] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:24:10.845 +00:00] [INF] [77] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:24:10.847 +00:00] [INF] [77] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:24:10.847 +00:00] [INF] [77] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:24:33.499 +00:00] [INF] [66] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:25:10.847 +00:00] [INF] [66] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:25:10.847 +00:00] [INF] [66] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:25:10.847 +00:00] [INF] [66] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:25:33.506 +00:00] [INF] [44] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:26:10.844 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:26:10.844 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:26:10.844 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:26:33.517 +00:00] [INF] [66] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:27:10.852 +00:00] [INF] [83] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:27:10.852 +00:00] [INF] [83] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:27:10.853 +00:00] [INF] [83] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:27:33.527 +00:00] [INF] [92] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:28:10.848 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:28:10.849 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:28:10.849 +00:00] [INF] [79] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:28:33.542 +00:00] [INF] [65] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:29:10.839 +00:00] [INF] [85] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:29:10.839 +00:00] [INF] [85] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:29:10.840 +00:00] [INF] [85] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:29:33.542 +00:00] [INF] [69] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:30:10.839 +00:00] [INF] [69] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:30:10.840 +00:00] [INF] [69] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:30:10.840 +00:00] [INF] [69] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:30:33.547 +00:00] [INF] [69] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:31:10.846 +00:00] [INF] [69] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:31:10.846 +00:00] [INF] [69] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:31:10.846 +00:00] [INF] [69] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:31:33.559 +00:00] [INF] [43] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:32:10.846 +00:00] [INF] [91] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:32:10.847 +00:00] [INF] [91] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:32:10.847 +00:00] [INF] [91] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:32:33.574 +00:00] [INF] [43] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:33:10.852 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:33:10.853 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:33:10.853 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:33:33.582 +00:00] [INF] [47] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:34:10.849 +00:00] [INF] [106] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:34:10.849 +00:00] [INF] [106] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:34:10.849 +00:00] [INF] [106] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:34:33.583 +00:00] [INF] [48] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:35:10.844 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:35:10.844 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:35:10.844 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:35:33.585 +00:00] [INF] [94] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:36:10.853 +00:00] [INF] [89] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:36:10.853 +00:00] [INF] [89] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:36:10.853 +00:00] [INF] [89] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:36:33.591 +00:00] [INF] [19] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:37:10.857 +00:00] [INF] [32] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:37:10.859 +00:00] [INF] [32] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:37:10.859 +00:00] [INF] [32] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:37:33.587 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:38:10.842 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:38:10.842 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:38:10.842 +00:00] [INF] [49] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:38:33.604 +00:00] [INF] [53] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:39:10.849 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:39:10.850 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:39:10.850 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:39:33.611 +00:00] [INF] [30] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:40:10.849 +00:00] [INF] [18] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:40:10.849 +00:00] [INF] [18] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:40:10.850 +00:00] [INF] [18] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:40:33.613 +00:00] [INF] [61] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:41:10.845 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:41:10.845 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:41:10.846 +00:00] [INF] [64] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:41:33.616 +00:00] [INF] [55] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:42:10.859 +00:00] [INF] [104] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:42:10.859 +00:00] [INF] [104] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:42:10.859 +00:00] [INF] [104] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:42:33.630 +00:00] [INF] [55] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:43:10.848 +00:00] [INF] [50] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:43:10.848 +00:00] [INF] [50] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:43:10.848 +00:00] [INF] [50] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:43:33.633 +00:00] [INF] [19] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:44:10.852 +00:00] [INF] [61] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:44:10.852 +00:00] [INF] [61] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:44:10.852 +00:00] [INF] [61] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:44:33.636 +00:00] [INF] [19] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:45:10.853 +00:00] [INF] [98] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:45:10.853 +00:00] [INF] [98] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:45:10.853 +00:00] [INF] [98] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:45:33.640 +00:00] [INF] [40] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:46:10.860 +00:00] [INF] [98] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:46:10.861 +00:00] [INF] [98] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:46:10.861 +00:00] [INF] [98] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:46:33.652 +00:00] [INF] [50] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:47:10.860 +00:00] [INF] [98] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:47:10.861 +00:00] [INF] [98] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:47:10.862 +00:00] [INF] [98] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:47:33.663 +00:00] [INF] [97] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:48:10.856 +00:00] [INF] [62] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:48:10.857 +00:00] [INF] [62] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:48:10.857 +00:00] [INF] [62] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:48:33.667 +00:00] [INF] [33] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:49:10.860 +00:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:49:10.860 +00:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:49:10.861 +00:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:49:33.671 +00:00] [INF] [28] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:50:10.856 +00:00] [INF] [71] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:50:10.856 +00:00] [INF] [71] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:50:10.856 +00:00] [INF] [71] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:50:33.684 +00:00] [INF] [72] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:51:10.867 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:51:10.868 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:51:10.868 +00:00] [INF] [72] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:51:33.690 +00:00] [INF] [48] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:52:10.865 +00:00] [INF] [67] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:52:10.865 +00:00] [INF] [67] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:52:10.866 +00:00] [INF] [67] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:52:33.695 +00:00] [INF] [48] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:53:10.873 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:53:10.874 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:53:10.874 +00:00] [INF] [48] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:53:33.698 +00:00] [INF] [48] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:54:10.859 +00:00] [INF] [35] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:54:10.859 +00:00] [INF] [35] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:54:10.860 +00:00] [INF] [35] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:54:33.706 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:55:10.873 +00:00] [INF] [74] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:55:10.873 +00:00] [INF] [74] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:55:10.873 +00:00] [INF] [74] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:55:33.712 +00:00] [INF] [74] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:56:10.881 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:56:10.881 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:56:10.881 +00:00] [INF] [29] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:56:33.711 +00:00] [INF] [42] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:57:10.877 +00:00] [INF] [70] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:57:10.879 +00:00] [INF] [70] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:57:10.879 +00:00] [INF] [70] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:57:33.714 +00:00] [INF] [36] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:58:10.867 +00:00] [INF] [70] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:58:10.867 +00:00] [INF] [70] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:58:10.868 +00:00] [INF] [70] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:58:33.727 +00:00] [INF] [89] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2023-01-10 23:59:10.876 +00:00] [INF] [32] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:59:10.878 +00:00] [INF] [32] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-01-10 23:59:10.878 +00:00] [INF] [32] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-01-10 23:59:33.732 +00:00] [INF] [20] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
