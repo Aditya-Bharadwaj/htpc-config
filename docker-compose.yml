@@ -87,20 +87,14 @@ services:
       - ${MEDIA_PATH}/complete/movies:/movies # movies folder
       - ${MEDIA_PATH}/complete/tv:/tv # tv shows folder
 
-  jellyfin:
-    image: linuxserver/jellyfin
-    devices:
-      - /dev/vchiq:/dev/vchiq ##HWA Chip
-    container_name: jellyfin
-    network_mode: host
+  plex-server:
+    container_name: plex-server
+    image: plexinc/pms-docker:latest
+    restart: unless-stopped
     environment:
-      - PUID=${PUID} 
-      - PGID=${PGID}
-      - TZ={TZ}
-      - UMASK_SET=022
+      - TZ=${TZ} # timezone, defined in .env
+    network_mode: host
     volumes:
-      - ${CONFIG_PATH}/config/data/jellyfin:/config
-      - ${MEDIA_PATH}/complete:/media
-      - /dev/shm:/config/data/transcoding-temp/transcodes
-      - /opt/vc/lib:/opt/vc/lib   ## OpenMax Libraries
-    restart: always
+      - ${CONFIG_PATH}/config/plex/db:/config # plex database
+      - ${CONFIG_PATH}/config/plex/transcode:/transcode # temp transcoded files
+      - ${MEDIA_PATH}/complete:/data # media library  
