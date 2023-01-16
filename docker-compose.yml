@@ -98,3 +98,16 @@ services:
       - ${CONFIG_PATH}/config/plex/db:/config # plex database
       - ${CONFIG_PATH}/config/plex/transcode:/transcode # temp transcoded files
       - ${MEDIA_PATH}/complete:/data # media library  
+
+  overseerr:
+    image: lscr.io/linuxserver/overseerr:latest
+    container_name: overseerr
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - ${CONFIG_PATH}/config/overseerr:/config
+    ports:
+      - 5055:5055
+    restart: unless-stopped 
